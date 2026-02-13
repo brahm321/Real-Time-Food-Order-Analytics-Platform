@@ -1,0 +1,731 @@
+2026-02-13T18:27:40.113+05:30  INFO 25589 --- [Chef] [main] com.brahmesh.Chef.ChefApplication        : Starting ChefApplication using Java 22.0.2 with PID 25589 (/Users/brahmesh/Desktop/Real-Time Order Analytics Platform/Chef/target/classes started by brahmesh in /Users/brahmesh/Desktop/Real-Time Order Analytics Platform/Chef)
+2026-02-13T18:27:40.123+05:30  INFO 25589 --- [Chef] [main] com.brahmesh.Chef.ChefApplication        : No active profile set, falling back to 1 default profile: "default"
+2026-02-13T18:27:52.888+05:30  INFO 25589 --- [Chef] [main] com.brahmesh.Chef.ChefApplication        : Started ChefApplication in 14.906 seconds (process running for 16.803)
+2026-02-13T18:28:18.651+05:30  INFO 25589 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    : Received Order: 1014
+2026-02-13T18:28:18.653+05:30  INFO 25589 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    :  Going to Chef for processing
+2026-02-13T18:28:18.951+05:30  INFO 25589 --- [Chef] [pool-2-thread-1] c.brahmesh.Chef.Service.OrderProcessing  : Preparing order 1014
+2026-02-13T18:28:30.953+05:30  INFO 25589 --- [Chef] [pool-2-thread-1] c.brahmesh.Chef.Service.OrderProcessing  : Order 1014 ready for delivery.
+2026-02-13T18:28:30.954+05:30  INFO 25589 --- [Chef] [pool-2-thread-1] c.brahmesh.Chef.Service.OrderProcessing  : Delivering order 1014
+2026-02-13T18:40:42.309+05:30  INFO 25823 --- [Chef] [main] com.brahmesh.Chef.ChefApplication        : Starting ChefApplication using Java 22.0.2 with PID 25823 (/Users/brahmesh/Desktop/Real-Time Order Analytics Platform/Chef/target/classes started by brahmesh in /Users/brahmesh/Desktop/Real-Time Order Analytics Platform/Chef)
+2026-02-13T18:40:42.319+05:30  INFO 25823 --- [Chef] [main] com.brahmesh.Chef.ChefApplication        : No active profile set, falling back to 1 default profile: "default"
+2026-02-13T18:40:58.899+05:30  INFO 25823 --- [Chef] [main] com.brahmesh.Chef.ChefApplication        : Started ChefApplication in 20.219 seconds (process running for 23.15)
+2026-02-13T18:41:33.962+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    : Received Order: 1014
+2026-02-13T18:41:33.964+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    :  Going to Chef for processing
+2026-02-13T18:41:34.270+05:30  INFO 25823 --- [Chef] [pool-2-thread-1] c.brahmesh.Chef.Service.OrderProcessing  : Preparing order 1014
+2026-02-13T18:41:46.271+05:30  INFO 25823 --- [Chef] [pool-2-thread-1] c.brahmesh.Chef.Service.OrderProcessing  : Order 1014 ready for delivery.
+2026-02-13T18:41:46.272+05:30  INFO 25823 --- [Chef] [pool-2-thread-1] c.brahmesh.Chef.Service.OrderProcessing  : Delivering order 1014
+2026-02-13T18:42:10.428+05:30  INFO 25823 --- [Chef] [pool-2-thread-1] c.brahmesh.Chef.Service.OrderProcessing  : Order 1014 Delivered
+2026-02-13T18:48:36.021+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    : Received Order: 1014
+2026-02-13T18:48:36.023+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    :  Going to Chef for processing
+2026-02-13T18:48:36.054+05:30  INFO 25823 --- [Chef] [pool-2-thread-2] c.brahmesh.Chef.Service.OrderProcessing  : Preparing order 1014
+2026-02-13T18:48:48.059+05:30  INFO 25823 --- [Chef] [pool-2-thread-2] c.brahmesh.Chef.Service.OrderProcessing  : Order 1014 ready for delivery.
+2026-02-13T18:48:48.061+05:30  INFO 25823 --- [Chef] [pool-2-thread-2] c.brahmesh.Chef.Service.OrderProcessing  : Delivering order 1014
+2026-02-13T18:49:12.079+05:30  INFO 25823 --- [Chef] [pool-2-thread-2] c.brahmesh.Chef.Service.OrderProcessing  : Order 1014 Delivered
+2026-02-13T19:11:21.584+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    : Received Order: 1014
+2026-02-13T19:11:21.588+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    :  Going to Chef for processing
+2026-02-13T19:11:21.713+05:30  INFO 25823 --- [Chef] [pool-2-thread-3] c.brahmesh.Chef.Service.OrderProcessing  : Preparing order 1014
+2026-02-13T19:11:22.714+05:30  INFO 25823 --- [Chef] [pool-2-thread-3] c.brahmesh.Chef.Service.OrderProcessing  : Order 1014 ready for delivery.
+2026-02-13T19:11:22.715+05:30  INFO 25823 --- [Chef] [pool-2-thread-3] c.brahmesh.Chef.Service.OrderProcessing  : Delivering order 1014
+2026-02-13T19:11:24.771+05:30  INFO 25823 --- [Chef] [pool-2-thread-3] c.brahmesh.Chef.Service.OrderProcessing  : Order 1014 Delivered
+2026-02-13T19:11:43.344+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    : Received Order: 1014
+2026-02-13T19:11:43.345+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    :  Going to Chef for processing
+2026-02-13T19:11:43.400+05:30  INFO 25823 --- [Chef] [pool-2-thread-4] c.brahmesh.Chef.Service.OrderProcessing  : Preparing order 1014
+2026-02-13T19:11:44.113+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    : Received Order: 1014
+2026-02-13T19:11:44.114+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    :  Going to Chef for processing
+2026-02-13T19:11:44.119+05:30  INFO 25823 --- [Chef] [pool-2-thread-5] c.brahmesh.Chef.Service.OrderProcessing  : Preparing order 1014
+2026-02-13T19:11:44.401+05:30  INFO 25823 --- [Chef] [pool-2-thread-4] c.brahmesh.Chef.Service.OrderProcessing  : Order 1014 ready for delivery.
+2026-02-13T19:11:44.402+05:30  INFO 25823 --- [Chef] [pool-2-thread-4] c.brahmesh.Chef.Service.OrderProcessing  : Delivering order 1014
+2026-02-13T19:11:45.123+05:30  INFO 25823 --- [Chef] [pool-2-thread-5] c.brahmesh.Chef.Service.OrderProcessing  : Order 1014 ready for delivery.
+2026-02-13T19:11:45.124+05:30  INFO 25823 --- [Chef] [pool-2-thread-5] c.brahmesh.Chef.Service.OrderProcessing  : Delivering order 1014
+2026-02-13T19:11:45.167+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    : Received Order: 1014
+2026-02-13T19:11:45.168+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    :  Going to Chef for processing
+2026-02-13T19:11:45.174+05:30  INFO 25823 --- [Chef] [pool-2-thread-6] c.brahmesh.Chef.Service.OrderProcessing  : Preparing order 1014
+2026-02-13T19:11:46.176+05:30  INFO 25823 --- [Chef] [pool-2-thread-6] c.brahmesh.Chef.Service.OrderProcessing  : Order 1014 ready for delivery.
+2026-02-13T19:11:46.177+05:30  INFO 25823 --- [Chef] [pool-2-thread-6] c.brahmesh.Chef.Service.OrderProcessing  : Delivering order 1014
+2026-02-13T19:11:46.429+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    : Received Order: 1014
+2026-02-13T19:11:46.430+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    :  Going to Chef for processing
+2026-02-13T19:11:46.507+05:30  INFO 25823 --- [Chef] [pool-2-thread-7] c.brahmesh.Chef.Service.OrderProcessing  : Preparing order 1014
+2026-02-13T19:11:46.548+05:30  INFO 25823 --- [Chef] [pool-2-thread-4] c.brahmesh.Chef.Service.OrderProcessing  : Order 1014 Delivered
+2026-02-13T19:11:47.139+05:30  INFO 25823 --- [Chef] [pool-2-thread-5] c.brahmesh.Chef.Service.OrderProcessing  : Order 1014 Delivered
+2026-02-13T19:11:47.484+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    : Received Order: 1014
+2026-02-13T19:11:47.485+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    :  Going to Chef for processing
+2026-02-13T19:11:47.508+05:30  INFO 25823 --- [Chef] [pool-2-thread-7] c.brahmesh.Chef.Service.OrderProcessing  : Order 1014 ready for delivery.
+2026-02-13T19:11:47.509+05:30  INFO 25823 --- [Chef] [pool-2-thread-7] c.brahmesh.Chef.Service.OrderProcessing  : Delivering order 1014
+2026-02-13T19:11:47.526+05:30  INFO 25823 --- [Chef] [pool-2-thread-8] c.brahmesh.Chef.Service.OrderProcessing  : Preparing order 1014
+2026-02-13T19:11:48.230+05:30  INFO 25823 --- [Chef] [pool-2-thread-6] c.brahmesh.Chef.Service.OrderProcessing  : Order 1014 Delivered
+2026-02-13T19:11:48.529+05:30  INFO 25823 --- [Chef] [pool-2-thread-8] c.brahmesh.Chef.Service.OrderProcessing  : Order 1014 ready for delivery.
+2026-02-13T19:11:48.531+05:30  INFO 25823 --- [Chef] [pool-2-thread-8] c.brahmesh.Chef.Service.OrderProcessing  : Delivering order 1014
+2026-02-13T19:11:49.518+05:30  INFO 25823 --- [Chef] [pool-2-thread-7] c.brahmesh.Chef.Service.OrderProcessing  : Order 1014 Delivered
+2026-02-13T19:11:50.548+05:30  INFO 25823 --- [Chef] [pool-2-thread-8] c.brahmesh.Chef.Service.OrderProcessing  : Order 1014 Delivered
+2026-02-13T19:11:50.562+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    : Received Order: 1015
+2026-02-13T19:11:50.564+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    :  Going to Chef for processing
+2026-02-13T19:11:50.884+05:30  INFO 25823 --- [Chef] [pool-2-thread-9] c.brahmesh.Chef.Service.OrderProcessing  : Preparing order 1015
+2026-02-13T19:11:51.886+05:30  INFO 25823 --- [Chef] [pool-2-thread-9] c.brahmesh.Chef.Service.OrderProcessing  : Order 1015 ready for delivery.
+2026-02-13T19:11:51.887+05:30  INFO 25823 --- [Chef] [pool-2-thread-9] c.brahmesh.Chef.Service.OrderProcessing  : Delivering order 1015
+2026-02-13T19:11:53.946+05:30  INFO 25823 --- [Chef] [pool-2-thread-9] c.brahmesh.Chef.Service.OrderProcessing  : Order 1015 Delivered
+2026-02-13T19:14:03.336+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    : Received Order: 1015
+2026-02-13T19:14:03.337+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    :  Going to Chef for processing
+2026-02-13T19:14:03.390+05:30  INFO 25823 --- [Chef] [pool-2-thread-10] c.brahmesh.Chef.Service.OrderProcessing  : Preparing order 1015
+2026-02-13T19:14:05.395+05:30  INFO 25823 --- [Chef] [pool-2-thread-10] c.brahmesh.Chef.Service.OrderProcessing  : Order 1015 ready for delivery.
+2026-02-13T19:14:05.396+05:30  INFO 25823 --- [Chef] [pool-2-thread-10] c.brahmesh.Chef.Service.OrderProcessing  : Delivering order 1015
+2026-02-13T19:14:06.392+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    : Received Order: 10135
+2026-02-13T19:14:06.392+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    :  Going to Chef for processing
+2026-02-13T19:14:06.403+05:30  INFO 25823 --- [Chef] [pool-2-thread-1] c.brahmesh.Chef.Service.OrderProcessing  : Preparing order 10135
+2026-02-13T19:14:08.410+05:30  INFO 25823 --- [Chef] [pool-2-thread-1] c.brahmesh.Chef.Service.OrderProcessing  : Order 10135 ready for delivery.
+2026-02-13T19:14:08.411+05:30  INFO 25823 --- [Chef] [pool-2-thread-1] c.brahmesh.Chef.Service.OrderProcessing  : Delivering order 10135
+2026-02-13T19:14:09.232+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    : Received Order: 10135
+2026-02-13T19:14:09.232+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    :  Going to Chef for processing
+2026-02-13T19:14:09.238+05:30  INFO 25823 --- [Chef] [pool-2-thread-2] c.brahmesh.Chef.Service.OrderProcessing  : Preparing order 10135
+2026-02-13T19:14:09.448+05:30  INFO 25823 --- [Chef] [pool-2-thread-10] c.brahmesh.Chef.Service.OrderProcessing  : Order 1015 Delivered
+2026-02-13T19:14:11.239+05:30  INFO 25823 --- [Chef] [pool-2-thread-2] c.brahmesh.Chef.Service.OrderProcessing  : Order 10135 ready for delivery.
+2026-02-13T19:14:11.244+05:30  INFO 25823 --- [Chef] [pool-2-thread-2] c.brahmesh.Chef.Service.OrderProcessing  : Delivering order 10135
+2026-02-13T19:14:12.486+05:30  INFO 25823 --- [Chef] [pool-2-thread-1] c.brahmesh.Chef.Service.OrderProcessing  : Order 10135 Delivered
+2026-02-13T19:14:13.470+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    : Received Order: 10145
+2026-02-13T19:14:13.471+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    :  Going to Chef for processing
+2026-02-13T19:14:13.519+05:30  INFO 25823 --- [Chef] [pool-2-thread-3] c.brahmesh.Chef.Service.OrderProcessing  : Preparing order 10145
+2026-02-13T19:14:15.252+05:30  INFO 25823 --- [Chef] [pool-2-thread-2] c.brahmesh.Chef.Service.OrderProcessing  : Order 10135 Delivered
+2026-02-13T19:14:15.530+05:30  INFO 25823 --- [Chef] [pool-2-thread-3] c.brahmesh.Chef.Service.OrderProcessing  : Order 10145 ready for delivery.
+2026-02-13T19:14:15.531+05:30  INFO 25823 --- [Chef] [pool-2-thread-3] c.brahmesh.Chef.Service.OrderProcessing  : Delivering order 10145
+2026-02-13T19:14:16.975+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    : Received Order: 10145
+2026-02-13T19:14:16.976+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    :  Going to Chef for processing
+2026-02-13T19:14:16.996+05:30  INFO 25823 --- [Chef] [pool-2-thread-4] c.brahmesh.Chef.Service.OrderProcessing  : Preparing order 10145
+2026-02-13T19:14:19.000+05:30  INFO 25823 --- [Chef] [pool-2-thread-4] c.brahmesh.Chef.Service.OrderProcessing  : Order 10145 ready for delivery.
+2026-02-13T19:14:19.001+05:30  INFO 25823 --- [Chef] [pool-2-thread-4] c.brahmesh.Chef.Service.OrderProcessing  : Delivering order 10145
+2026-02-13T19:14:19.566+05:30  INFO 25823 --- [Chef] [pool-2-thread-3] c.brahmesh.Chef.Service.OrderProcessing  : Order 10145 Delivered
+2026-02-13T19:14:20.428+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    : Received Order: 10146
+2026-02-13T19:14:20.429+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    :  Going to Chef for processing
+2026-02-13T19:14:20.476+05:30  INFO 25823 --- [Chef] [pool-2-thread-5] c.brahmesh.Chef.Service.OrderProcessing  : Preparing order 10146
+2026-02-13T19:14:22.480+05:30  INFO 25823 --- [Chef] [pool-2-thread-5] c.brahmesh.Chef.Service.OrderProcessing  : Order 10146 ready for delivery.
+2026-02-13T19:14:22.480+05:30  INFO 25823 --- [Chef] [pool-2-thread-5] c.brahmesh.Chef.Service.OrderProcessing  : Delivering order 10146
+2026-02-13T19:14:23.019+05:30  INFO 25823 --- [Chef] [pool-2-thread-4] c.brahmesh.Chef.Service.OrderProcessing  : Order 10145 Delivered
+2026-02-13T19:14:24.641+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    : Received Order: 10147
+2026-02-13T19:14:24.643+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    :  Going to Chef for processing
+2026-02-13T19:14:24.700+05:30  INFO 25823 --- [Chef] [pool-2-thread-6] c.brahmesh.Chef.Service.OrderProcessing  : Preparing order 10147
+2026-02-13T19:14:26.536+05:30  INFO 25823 --- [Chef] [pool-2-thread-5] c.brahmesh.Chef.Service.OrderProcessing  : Order 10146 Delivered
+2026-02-13T19:14:26.700+05:30  INFO 25823 --- [Chef] [pool-2-thread-6] c.brahmesh.Chef.Service.OrderProcessing  : Order 10147 ready for delivery.
+2026-02-13T19:14:26.701+05:30  INFO 25823 --- [Chef] [pool-2-thread-6] c.brahmesh.Chef.Service.OrderProcessing  : Delivering order 10147
+2026-02-13T19:14:28.465+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    : Received Order: 10148
+2026-02-13T19:14:28.466+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    :  Going to Chef for processing
+2026-02-13T19:14:28.521+05:30  INFO 25823 --- [Chef] [pool-2-thread-7] c.brahmesh.Chef.Service.OrderProcessing  : Preparing order 10148
+2026-02-13T19:14:30.523+05:30  INFO 25823 --- [Chef] [pool-2-thread-7] c.brahmesh.Chef.Service.OrderProcessing  : Order 10148 ready for delivery.
+2026-02-13T19:14:30.524+05:30  INFO 25823 --- [Chef] [pool-2-thread-7] c.brahmesh.Chef.Service.OrderProcessing  : Delivering order 10148
+2026-02-13T19:14:30.757+05:30  INFO 25823 --- [Chef] [pool-2-thread-6] c.brahmesh.Chef.Service.OrderProcessing  : Order 10147 Delivered
+2026-02-13T19:14:33.421+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    : Received Order: 10144
+2026-02-13T19:14:33.422+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    :  Going to Chef for processing
+2026-02-13T19:14:33.470+05:30  INFO 25823 --- [Chef] [pool-2-thread-8] c.brahmesh.Chef.Service.OrderProcessing  : Preparing order 10144
+2026-02-13T19:14:34.536+05:30  INFO 25823 --- [Chef] [pool-2-thread-7] c.brahmesh.Chef.Service.OrderProcessing  : Order 10148 Delivered
+2026-02-13T19:14:35.474+05:30  INFO 25823 --- [Chef] [pool-2-thread-8] c.brahmesh.Chef.Service.OrderProcessing  : Order 10144 ready for delivery.
+2026-02-13T19:14:35.475+05:30  INFO 25823 --- [Chef] [pool-2-thread-8] c.brahmesh.Chef.Service.OrderProcessing  : Delivering order 10144
+2026-02-13T19:14:36.050+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    : Received Order: 10444
+2026-02-13T19:14:36.050+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    :  Going to Chef for processing
+2026-02-13T19:14:36.307+05:30  INFO 25823 --- [Chef] [pool-2-thread-9] c.brahmesh.Chef.Service.OrderProcessing  : Preparing order 10444
+2026-02-13T19:14:38.313+05:30  INFO 25823 --- [Chef] [pool-2-thread-9] c.brahmesh.Chef.Service.OrderProcessing  : Order 10444 ready for delivery.
+2026-02-13T19:14:38.314+05:30  INFO 25823 --- [Chef] [pool-2-thread-9] c.brahmesh.Chef.Service.OrderProcessing  : Delivering order 10444
+2026-02-13T19:14:39.528+05:30  INFO 25823 --- [Chef] [pool-2-thread-8] c.brahmesh.Chef.Service.OrderProcessing  : Order 10144 Delivered
+2026-02-13T19:14:42.364+05:30  INFO 25823 --- [Chef] [pool-2-thread-9] c.brahmesh.Chef.Service.OrderProcessing  : Order 10444 Delivered
+2026-02-13T19:15:10.715+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    : Received Order: 10444
+2026-02-13T19:15:10.715+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    :  Going to Chef for processing
+2026-02-13T19:15:10.840+05:30  INFO 25823 --- [Chef] [pool-2-thread-10] c.brahmesh.Chef.Service.OrderProcessing  : Preparing order 10444
+2026-02-13T19:15:12.841+05:30  INFO 25823 --- [Chef] [pool-2-thread-10] c.brahmesh.Chef.Service.OrderProcessing  : Order 10444 ready for delivery.
+2026-02-13T19:15:12.842+05:30  INFO 25823 --- [Chef] [pool-2-thread-10] c.brahmesh.Chef.Service.OrderProcessing  : Delivering order 10444
+2026-02-13T19:15:16.897+05:30  INFO 25823 --- [Chef] [pool-2-thread-10] c.brahmesh.Chef.Service.OrderProcessing  : Order 10444 Delivered
+2026-02-13T19:15:27.803+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    : Received Order: 12331
+2026-02-13T19:15:27.804+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    :  Going to Chef for processing
+2026-02-13T19:15:27.900+05:30  INFO 25823 --- [Chef] [pool-2-thread-1] c.brahmesh.Chef.Service.OrderProcessing  : Preparing order 12331
+2026-02-13T19:15:29.917+05:30  INFO 25823 --- [Chef] [pool-2-thread-1] c.brahmesh.Chef.Service.OrderProcessing  : Order 12331 ready for delivery.
+2026-02-13T19:15:29.949+05:30  INFO 25823 --- [Chef] [pool-2-thread-1] c.brahmesh.Chef.Service.OrderProcessing  : Delivering order 12331
+2026-02-13T19:15:31.195+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    : Received Order: 123
+2026-02-13T19:15:31.196+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    :  Going to Chef for processing
+2026-02-13T19:15:31.242+05:30  INFO 25823 --- [Chef] [pool-2-thread-2] c.brahmesh.Chef.Service.OrderProcessing  : Preparing order 123
+2026-02-13T19:15:33.245+05:30  INFO 25823 --- [Chef] [pool-2-thread-2] c.brahmesh.Chef.Service.OrderProcessing  : Order 123 ready for delivery.
+2026-02-13T19:15:33.246+05:30  INFO 25823 --- [Chef] [pool-2-thread-2] c.brahmesh.Chef.Service.OrderProcessing  : Delivering order 123
+2026-02-13T19:15:33.844+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    : Received Order: 12343
+2026-02-13T19:15:33.844+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    :  Going to Chef for processing
+2026-02-13T19:15:33.934+05:30  INFO 25823 --- [Chef] [pool-2-thread-3] c.brahmesh.Chef.Service.OrderProcessing  : Preparing order 12343
+2026-02-13T19:15:33.957+05:30  INFO 25823 --- [Chef] [pool-2-thread-1] c.brahmesh.Chef.Service.OrderProcessing  : Order 12331 Delivered
+2026-02-13T19:15:35.939+05:30  INFO 25823 --- [Chef] [pool-2-thread-3] c.brahmesh.Chef.Service.OrderProcessing  : Order 12343 ready for delivery.
+2026-02-13T19:15:35.939+05:30  INFO 25823 --- [Chef] [pool-2-thread-3] c.brahmesh.Chef.Service.OrderProcessing  : Delivering order 12343
+2026-02-13T19:15:37.349+05:30  INFO 25823 --- [Chef] [pool-2-thread-2] c.brahmesh.Chef.Service.OrderProcessing  : Order 123 Delivered
+2026-02-13T19:15:38.500+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    : Received Order: 234
+2026-02-13T19:15:38.501+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    :  Going to Chef for processing
+2026-02-13T19:15:38.549+05:30  INFO 25823 --- [Chef] [pool-2-thread-4] c.brahmesh.Chef.Service.OrderProcessing  : Preparing order 234
+2026-02-13T19:15:39.956+05:30  INFO 25823 --- [Chef] [pool-2-thread-3] c.brahmesh.Chef.Service.OrderProcessing  : Order 12343 Delivered
+2026-02-13T19:15:40.554+05:30  INFO 25823 --- [Chef] [pool-2-thread-4] c.brahmesh.Chef.Service.OrderProcessing  : Order 234 ready for delivery.
+2026-02-13T19:15:40.555+05:30  INFO 25823 --- [Chef] [pool-2-thread-4] c.brahmesh.Chef.Service.OrderProcessing  : Delivering order 234
+2026-02-13T19:15:43.764+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    : Received Order: 3244
+2026-02-13T19:15:43.764+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    :  Going to Chef for processing
+2026-02-13T19:15:43.810+05:30  INFO 25823 --- [Chef] [pool-2-thread-5] c.brahmesh.Chef.Service.OrderProcessing  : Preparing order 3244
+2026-02-13T19:15:44.608+05:30  INFO 25823 --- [Chef] [pool-2-thread-4] c.brahmesh.Chef.Service.OrderProcessing  : Order 234 Delivered
+2026-02-13T19:15:45.812+05:30  INFO 25823 --- [Chef] [pool-2-thread-5] c.brahmesh.Chef.Service.OrderProcessing  : Order 3244 ready for delivery.
+2026-02-13T19:15:45.815+05:30  INFO 25823 --- [Chef] [pool-2-thread-5] c.brahmesh.Chef.Service.OrderProcessing  : Delivering order 3244
+2026-02-13T19:15:46.009+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    : Received Order: 23423
+2026-02-13T19:15:46.010+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    :  Going to Chef for processing
+2026-02-13T19:15:46.057+05:30  INFO 25823 --- [Chef] [pool-2-thread-6] c.brahmesh.Chef.Service.OrderProcessing  : Preparing order 23423
+2026-02-13T19:15:48.059+05:30  INFO 25823 --- [Chef] [pool-2-thread-6] c.brahmesh.Chef.Service.OrderProcessing  : Order 23423 ready for delivery.
+2026-02-13T19:15:48.059+05:30  INFO 25823 --- [Chef] [pool-2-thread-6] c.brahmesh.Chef.Service.OrderProcessing  : Delivering order 23423
+2026-02-13T19:15:49.501+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    : Received Order: 324423
+2026-02-13T19:15:49.501+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    :  Going to Chef for processing
+2026-02-13T19:15:49.550+05:30  INFO 25823 --- [Chef] [pool-2-thread-7] c.brahmesh.Chef.Service.OrderProcessing  : Preparing order 324423
+2026-02-13T19:15:49.869+05:30  INFO 25823 --- [Chef] [pool-2-thread-5] c.brahmesh.Chef.Service.OrderProcessing  : Order 3244 Delivered
+2026-02-13T19:15:51.695+05:30  INFO 25823 --- [Chef] [pool-2-thread-7] c.brahmesh.Chef.Service.OrderProcessing  : Order 324423 ready for delivery.
+2026-02-13T19:15:51.699+05:30  INFO 25823 --- [Chef] [pool-2-thread-7] c.brahmesh.Chef.Service.OrderProcessing  : Delivering order 324423
+2026-02-13T19:15:52.176+05:30  INFO 25823 --- [Chef] [pool-2-thread-6] c.brahmesh.Chef.Service.OrderProcessing  : Order 23423 Delivered
+2026-02-13T19:15:52.728+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    : Received Order: 223
+2026-02-13T19:15:52.728+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    :  Going to Chef for processing
+2026-02-13T19:15:52.737+05:30  INFO 25823 --- [Chef] [pool-2-thread-8] c.brahmesh.Chef.Service.OrderProcessing  : Preparing order 223
+2026-02-13T19:15:54.737+05:30  INFO 25823 --- [Chef] [pool-2-thread-8] c.brahmesh.Chef.Service.OrderProcessing  : Order 223 ready for delivery.
+2026-02-13T19:15:54.738+05:30  INFO 25823 --- [Chef] [pool-2-thread-8] c.brahmesh.Chef.Service.OrderProcessing  : Delivering order 223
+2026-02-13T19:15:55.586+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    : Received Order: 123123
+2026-02-13T19:15:55.587+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    :  Going to Chef for processing
+2026-02-13T19:15:55.635+05:30  INFO 25823 --- [Chef] [pool-2-thread-9] c.brahmesh.Chef.Service.OrderProcessing  : Preparing order 123123
+2026-02-13T19:15:55.711+05:30  INFO 25823 --- [Chef] [pool-2-thread-7] c.brahmesh.Chef.Service.OrderProcessing  : Order 324423 Delivered
+2026-02-13T19:15:57.639+05:30  INFO 25823 --- [Chef] [pool-2-thread-9] c.brahmesh.Chef.Service.OrderProcessing  : Order 123123 ready for delivery.
+2026-02-13T19:15:57.640+05:30  INFO 25823 --- [Chef] [pool-2-thread-9] c.brahmesh.Chef.Service.OrderProcessing  : Delivering order 123123
+2026-02-13T19:15:58.221+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    : Received Order: 234324
+2026-02-13T19:15:58.222+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    :  Going to Chef for processing
+2026-02-13T19:15:58.268+05:30  INFO 25823 --- [Chef] [pool-2-thread-10] c.brahmesh.Chef.Service.OrderProcessing  : Preparing order 234324
+2026-02-13T19:15:58.746+05:30  INFO 25823 --- [Chef] [pool-2-thread-8] c.brahmesh.Chef.Service.OrderProcessing  : Order 223 Delivered
+2026-02-13T19:16:00.269+05:30  INFO 25823 --- [Chef] [pool-2-thread-10] c.brahmesh.Chef.Service.OrderProcessing  : Order 234324 ready for delivery.
+2026-02-13T19:16:00.269+05:30  INFO 25823 --- [Chef] [pool-2-thread-10] c.brahmesh.Chef.Service.OrderProcessing  : Delivering order 234324
+2026-02-13T19:16:01.688+05:30  INFO 25823 --- [Chef] [pool-2-thread-9] c.brahmesh.Chef.Service.OrderProcessing  : Order 123123 Delivered
+2026-02-13T19:16:03.207+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    : Received Order: 43534
+2026-02-13T19:16:03.208+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    :  Going to Chef for processing
+2026-02-13T19:16:03.239+05:30  INFO 25823 --- [Chef] [pool-2-thread-1] c.brahmesh.Chef.Service.OrderProcessing  : Preparing order 43534
+2026-02-13T19:16:04.510+05:30  INFO 25823 --- [Chef] [pool-2-thread-10] c.brahmesh.Chef.Service.OrderProcessing  : Order 234324 Delivered
+2026-02-13T19:16:05.241+05:30  INFO 25823 --- [Chef] [pool-2-thread-1] c.brahmesh.Chef.Service.OrderProcessing  : Order 43534 ready for delivery.
+2026-02-13T19:16:05.242+05:30  INFO 25823 --- [Chef] [pool-2-thread-1] c.brahmesh.Chef.Service.OrderProcessing  : Delivering order 43534
+2026-02-13T19:16:09.300+05:30  INFO 25823 --- [Chef] [pool-2-thread-1] c.brahmesh.Chef.Service.OrderProcessing  : Order 43534 Delivered
+2026-02-13T19:16:10.641+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    : Received Order: 1231
+2026-02-13T19:16:10.642+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    :  Going to Chef for processing
+2026-02-13T19:16:10.691+05:30  INFO 25823 --- [Chef] [pool-2-thread-2] c.brahmesh.Chef.Service.OrderProcessing  : Preparing order 1231
+2026-02-13T19:16:12.695+05:30  INFO 25823 --- [Chef] [pool-2-thread-2] c.brahmesh.Chef.Service.OrderProcessing  : Order 1231 ready for delivery.
+2026-02-13T19:16:12.696+05:30  INFO 25823 --- [Chef] [pool-2-thread-2] c.brahmesh.Chef.Service.OrderProcessing  : Delivering order 1231
+2026-02-13T19:16:16.392+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    : Received Order: 1221
+2026-02-13T19:16:16.393+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    :  Going to Chef for processing
+2026-02-13T19:16:16.444+05:30  INFO 25823 --- [Chef] [pool-2-thread-3] c.brahmesh.Chef.Service.OrderProcessing  : Preparing order 1221
+2026-02-13T19:16:16.748+05:30  INFO 25823 --- [Chef] [pool-2-thread-2] c.brahmesh.Chef.Service.OrderProcessing  : Order 1231 Delivered
+2026-02-13T19:16:18.446+05:30  INFO 25823 --- [Chef] [pool-2-thread-3] c.brahmesh.Chef.Service.OrderProcessing  : Order 1221 ready for delivery.
+2026-02-13T19:16:18.448+05:30  INFO 25823 --- [Chef] [pool-2-thread-3] c.brahmesh.Chef.Service.OrderProcessing  : Delivering order 1221
+2026-02-13T19:16:20.049+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    : Received Order: 34234
+2026-02-13T19:16:20.050+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    :  Going to Chef for processing
+2026-02-13T19:16:20.277+05:30  INFO 25823 --- [Chef] [pool-2-thread-4] c.brahmesh.Chef.Service.OrderProcessing  : Preparing order 34234
+2026-02-13T19:16:22.281+05:30  INFO 25823 --- [Chef] [pool-2-thread-4] c.brahmesh.Chef.Service.OrderProcessing  : Order 34234 ready for delivery.
+2026-02-13T19:16:22.283+05:30  INFO 25823 --- [Chef] [pool-2-thread-4] c.brahmesh.Chef.Service.OrderProcessing  : Delivering order 34234
+2026-02-13T19:16:22.464+05:30  INFO 25823 --- [Chef] [pool-2-thread-3] c.brahmesh.Chef.Service.OrderProcessing  : Order 1221 Delivered
+2026-02-13T19:16:23.151+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    : Received Order: 12312
+2026-02-13T19:16:23.152+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    :  Going to Chef for processing
+2026-02-13T19:16:23.201+05:30  INFO 25823 --- [Chef] [pool-2-thread-5] c.brahmesh.Chef.Service.OrderProcessing  : Preparing order 12312
+2026-02-13T19:16:25.204+05:30  INFO 25823 --- [Chef] [pool-2-thread-5] c.brahmesh.Chef.Service.OrderProcessing  : Order 12312 ready for delivery.
+2026-02-13T19:16:25.204+05:30  INFO 25823 --- [Chef] [pool-2-thread-5] c.brahmesh.Chef.Service.OrderProcessing  : Delivering order 12312
+2026-02-13T19:16:25.951+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    : Received Order: 4234
+2026-02-13T19:16:25.951+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    :  Going to Chef for processing
+2026-02-13T19:16:25.998+05:30  INFO 25823 --- [Chef] [pool-2-thread-6] c.brahmesh.Chef.Service.OrderProcessing  : Preparing order 4234
+2026-02-13T19:16:26.300+05:30  INFO 25823 --- [Chef] [pool-2-thread-4] c.brahmesh.Chef.Service.OrderProcessing  : Order 34234 Delivered
+2026-02-13T19:16:28.006+05:30  INFO 25823 --- [Chef] [pool-2-thread-6] c.brahmesh.Chef.Service.OrderProcessing  : Order 4234 ready for delivery.
+2026-02-13T19:16:28.007+05:30  INFO 25823 --- [Chef] [pool-2-thread-6] c.brahmesh.Chef.Service.OrderProcessing  : Delivering order 4234
+2026-02-13T19:16:28.680+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    : Received Order: 1231
+2026-02-13T19:16:28.680+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    :  Going to Chef for processing
+2026-02-13T19:16:28.690+05:30  INFO 25823 --- [Chef] [pool-2-thread-7] c.brahmesh.Chef.Service.OrderProcessing  : Preparing order 1231
+2026-02-13T19:16:29.214+05:30  INFO 25823 --- [Chef] [pool-2-thread-5] c.brahmesh.Chef.Service.OrderProcessing  : Order 12312 Delivered
+2026-02-13T19:16:30.694+05:30  INFO 25823 --- [Chef] [pool-2-thread-7] c.brahmesh.Chef.Service.OrderProcessing  : Order 1231 ready for delivery.
+2026-02-13T19:16:30.695+05:30  INFO 25823 --- [Chef] [pool-2-thread-7] c.brahmesh.Chef.Service.OrderProcessing  : Delivering order 1231
+2026-02-13T19:16:31.560+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    : Received Order: 657
+2026-02-13T19:16:31.561+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    :  Going to Chef for processing
+2026-02-13T19:16:31.570+05:30  INFO 25823 --- [Chef] [pool-2-thread-8] c.brahmesh.Chef.Service.OrderProcessing  : Preparing order 657
+2026-02-13T19:16:32.022+05:30  INFO 25823 --- [Chef] [pool-2-thread-6] c.brahmesh.Chef.Service.OrderProcessing  : Order 4234 Delivered
+2026-02-13T19:16:33.574+05:30  INFO 25823 --- [Chef] [pool-2-thread-8] c.brahmesh.Chef.Service.OrderProcessing  : Order 657 ready for delivery.
+2026-02-13T19:16:33.575+05:30  INFO 25823 --- [Chef] [pool-2-thread-8] c.brahmesh.Chef.Service.OrderProcessing  : Delivering order 657
+2026-02-13T19:16:34.710+05:30  INFO 25823 --- [Chef] [pool-2-thread-7] c.brahmesh.Chef.Service.OrderProcessing  : Order 1231 Delivered
+2026-02-13T19:16:37.588+05:30  INFO 25823 --- [Chef] [pool-2-thread-8] c.brahmesh.Chef.Service.OrderProcessing  : Order 657 Delivered
+2026-02-13T19:21:06.516+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    : Received Order: 657
+2026-02-13T19:21:06.520+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    :  Going to Chef for processing
+2026-02-13T19:21:06.563+05:30  INFO 25823 --- [Chef] [pool-2-thread-9] c.brahmesh.Chef.Service.OrderProcessing  : Preparing order 657
+2026-02-13T19:21:08.567+05:30  INFO 25823 --- [Chef] [pool-2-thread-9] c.brahmesh.Chef.Service.OrderProcessing  : Order 657 ready for delivery.
+2026-02-13T19:21:08.568+05:30  INFO 25823 --- [Chef] [pool-2-thread-9] c.brahmesh.Chef.Service.OrderProcessing  : Delivering order 657
+2026-02-13T19:21:10.743+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    : Received Order: 123
+2026-02-13T19:21:10.743+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    :  Going to Chef for processing
+2026-02-13T19:21:10.790+05:30  INFO 25823 --- [Chef] [pool-2-thread-10] c.brahmesh.Chef.Service.OrderProcessing  : Preparing order 123
+2026-02-13T19:21:12.579+05:30  INFO 25823 --- [Chef] [pool-2-thread-9] c.brahmesh.Chef.Service.OrderProcessing  : Order 657 Delivered
+2026-02-13T19:21:12.793+05:30  INFO 25823 --- [Chef] [pool-2-thread-10] c.brahmesh.Chef.Service.OrderProcessing  : Order 123 ready for delivery.
+2026-02-13T19:21:12.794+05:30  INFO 25823 --- [Chef] [pool-2-thread-10] c.brahmesh.Chef.Service.OrderProcessing  : Delivering order 123
+2026-02-13T19:21:13.524+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    : Received Order: 34
+2026-02-13T19:21:13.526+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    :  Going to Chef for processing
+2026-02-13T19:21:13.534+05:30  INFO 25823 --- [Chef] [pool-2-thread-1] c.brahmesh.Chef.Service.OrderProcessing  : Preparing order 34
+2026-02-13T19:21:15.535+05:30  INFO 25823 --- [Chef] [pool-2-thread-1] c.brahmesh.Chef.Service.OrderProcessing  : Order 34 ready for delivery.
+2026-02-13T19:21:15.535+05:30  INFO 25823 --- [Chef] [pool-2-thread-1] c.brahmesh.Chef.Service.OrderProcessing  : Delivering order 34
+2026-02-13T19:21:16.843+05:30  INFO 25823 --- [Chef] [pool-2-thread-10] c.brahmesh.Chef.Service.OrderProcessing  : Order 123 Delivered
+2026-02-13T19:21:19.008+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    : Received Order: 123
+2026-02-13T19:21:19.008+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    :  Going to Chef for processing
+2026-02-13T19:21:19.134+05:30  INFO 25823 --- [Chef] [pool-2-thread-2] c.brahmesh.Chef.Service.OrderProcessing  : Preparing order 123
+2026-02-13T19:21:19.593+05:30  INFO 25823 --- [Chef] [pool-2-thread-1] c.brahmesh.Chef.Service.OrderProcessing  : Order 34 Delivered
+2026-02-13T19:21:21.136+05:30  INFO 25823 --- [Chef] [pool-2-thread-2] c.brahmesh.Chef.Service.OrderProcessing  : Order 123 ready for delivery.
+2026-02-13T19:21:21.136+05:30  INFO 25823 --- [Chef] [pool-2-thread-2] c.brahmesh.Chef.Service.OrderProcessing  : Delivering order 123
+2026-02-13T19:21:22.899+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    : Received Order: 122
+2026-02-13T19:21:22.899+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    :  Going to Chef for processing
+2026-02-13T19:21:22.906+05:30  INFO 25823 --- [Chef] [pool-2-thread-3] c.brahmesh.Chef.Service.OrderProcessing  : Preparing order 122
+2026-02-13T19:21:24.906+05:30  INFO 25823 --- [Chef] [pool-2-thread-3] c.brahmesh.Chef.Service.OrderProcessing  : Order 122 ready for delivery.
+2026-02-13T19:21:24.907+05:30  INFO 25823 --- [Chef] [pool-2-thread-3] c.brahmesh.Chef.Service.OrderProcessing  : Delivering order 122
+2026-02-13T19:21:25.148+05:30  INFO 25823 --- [Chef] [pool-2-thread-2] c.brahmesh.Chef.Service.OrderProcessing  : Order 123 Delivered
+2026-02-13T19:21:27.067+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    : Received Order: 566
+2026-02-13T19:21:27.068+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    :  Going to Chef for processing
+2026-02-13T19:21:27.075+05:30  INFO 25823 --- [Chef] [pool-2-thread-4] c.brahmesh.Chef.Service.OrderProcessing  : Preparing order 566
+2026-02-13T19:21:28.918+05:30  INFO 25823 --- [Chef] [pool-2-thread-3] c.brahmesh.Chef.Service.OrderProcessing  : Order 122 Delivered
+2026-02-13T19:21:29.081+05:30  INFO 25823 --- [Chef] [pool-2-thread-4] c.brahmesh.Chef.Service.OrderProcessing  : Order 566 ready for delivery.
+2026-02-13T19:21:29.081+05:30  INFO 25823 --- [Chef] [pool-2-thread-4] c.brahmesh.Chef.Service.OrderProcessing  : Delivering order 566
+2026-02-13T19:21:33.089+05:30  INFO 25823 --- [Chef] [pool-2-thread-4] c.brahmesh.Chef.Service.OrderProcessing  : Order 566 Delivered
+2026-02-13T19:21:38.435+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    : Received Order: 11
+2026-02-13T19:21:38.436+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    :  Going to Chef for processing
+2026-02-13T19:21:38.445+05:30  INFO 25823 --- [Chef] [pool-2-thread-5] c.brahmesh.Chef.Service.OrderProcessing  : Preparing order 11
+2026-02-13T19:21:40.450+05:30  INFO 25823 --- [Chef] [pool-2-thread-5] c.brahmesh.Chef.Service.OrderProcessing  : Order 11 ready for delivery.
+2026-02-13T19:21:40.452+05:30  INFO 25823 --- [Chef] [pool-2-thread-5] c.brahmesh.Chef.Service.OrderProcessing  : Delivering order 11
+2026-02-13T19:21:44.462+05:30  INFO 25823 --- [Chef] [pool-2-thread-5] c.brahmesh.Chef.Service.OrderProcessing  : Order 11 Delivered
+2026-02-13T19:21:46.521+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    : Received Order: 11
+2026-02-13T19:21:46.522+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    :  Going to Chef for processing
+2026-02-13T19:21:46.537+05:30  INFO 25823 --- [Chef] [pool-2-thread-6] c.brahmesh.Chef.Service.OrderProcessing  : Preparing order 11
+2026-02-13T19:21:49.940+05:30  INFO 25823 --- [Chef] [pool-2-thread-6] c.brahmesh.Chef.Service.OrderProcessing  : Order 11 ready for delivery.
+2026-02-13T19:21:49.941+05:30  INFO 25823 --- [Chef] [pool-2-thread-6] c.brahmesh.Chef.Service.OrderProcessing  : Delivering order 11
+2026-02-13T19:21:50.112+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    : Received Order: 1011
+2026-02-13T19:21:50.112+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    :  Going to Chef for processing
+2026-02-13T19:21:50.165+05:30  INFO 25823 --- [Chef] [pool-2-thread-7] c.brahmesh.Chef.Service.OrderProcessing  : Preparing order 1011
+2026-02-13T19:21:52.811+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    : Received Order: 123
+2026-02-13T19:21:52.811+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    :  Going to Chef for processing
+2026-02-13T19:21:52.821+05:30  INFO 25823 --- [Chef] [pool-2-thread-8] c.brahmesh.Chef.Service.OrderProcessing  : Preparing order 123
+2026-02-13T19:21:53.566+05:30  INFO 25823 --- [Chef] [pool-2-thread-7] c.brahmesh.Chef.Service.OrderProcessing  : Order 1011 ready for delivery.
+2026-02-13T19:21:53.566+05:30  INFO 25823 --- [Chef] [pool-2-thread-7] c.brahmesh.Chef.Service.OrderProcessing  : Delivering order 1011
+2026-02-13T19:21:56.225+05:30  INFO 25823 --- [Chef] [pool-2-thread-8] c.brahmesh.Chef.Service.OrderProcessing  : Order 123 ready for delivery.
+2026-02-13T19:21:56.226+05:30  INFO 25823 --- [Chef] [pool-2-thread-8] c.brahmesh.Chef.Service.OrderProcessing  : Delivering order 123
+2026-02-13T19:21:56.712+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    : Received Order: 123
+2026-02-13T19:21:56.712+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    :  Going to Chef for processing
+2026-02-13T19:21:56.720+05:30  INFO 25823 --- [Chef] [pool-2-thread-9] c.brahmesh.Chef.Service.OrderProcessing  : Preparing order 123
+2026-02-13T19:21:56.754+05:30  INFO 25823 --- [Chef] [pool-2-thread-6] c.brahmesh.Chef.Service.OrderProcessing  : Order 11 Delivered
+2026-02-13T19:21:57.923+05:30  INFO 25823 --- [Chef] [pool-2-thread-9] c.brahmesh.Chef.Service.OrderProcessing  : Order 123 ready for delivery.
+2026-02-13T19:21:57.928+05:30  INFO 25823 --- [Chef] [pool-2-thread-9] c.brahmesh.Chef.Service.OrderProcessing  : Delivering order 123
+2026-02-13T19:21:59.388+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    : Received Order: 32
+2026-02-13T19:21:59.388+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    :  Going to Chef for processing
+2026-02-13T19:21:59.395+05:30  INFO 25823 --- [Chef] [pool-2-thread-10] c.brahmesh.Chef.Service.OrderProcessing  : Preparing order 32
+2026-02-13T19:22:00.399+05:30  INFO 25823 --- [Chef] [pool-2-thread-9] c.brahmesh.Chef.Service.OrderProcessing  : Order 123 Delivered
+2026-02-13T19:22:00.440+05:30  INFO 25823 --- [Chef] [pool-2-thread-7] c.brahmesh.Chef.Service.OrderProcessing  : Order 1011 Delivered
+2026-02-13T19:22:00.599+05:30  INFO 25823 --- [Chef] [pool-2-thread-10] c.brahmesh.Chef.Service.OrderProcessing  : Order 32 ready for delivery.
+2026-02-13T19:22:00.599+05:30  INFO 25823 --- [Chef] [pool-2-thread-10] c.brahmesh.Chef.Service.OrderProcessing  : Delivering order 32
+2026-02-13T19:22:03.064+05:30  INFO 25823 --- [Chef] [pool-2-thread-10] c.brahmesh.Chef.Service.OrderProcessing  : Order 32 Delivered
+2026-02-13T19:22:03.106+05:30  INFO 25823 --- [Chef] [pool-2-thread-8] c.brahmesh.Chef.Service.OrderProcessing  : Order 123 Delivered
+2026-02-13T19:22:04.755+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    : Received Order: 32
+2026-02-13T19:22:04.755+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    :  Going to Chef for processing
+2026-02-13T19:22:04.779+05:30  INFO 25823 --- [Chef] [pool-2-thread-1] c.brahmesh.Chef.Service.OrderProcessing  : Preparing order 32
+2026-02-13T19:22:05.883+05:30  INFO 25823 --- [Chef] [pool-2-thread-1] c.brahmesh.Chef.Service.OrderProcessing  : Order 32 ready for delivery.
+2026-02-13T19:22:05.885+05:30  INFO 25823 --- [Chef] [pool-2-thread-1] c.brahmesh.Chef.Service.OrderProcessing  : Delivering order 32
+2026-02-13T19:22:07.387+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    : Received Order: 323
+2026-02-13T19:22:07.387+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    :  Going to Chef for processing
+2026-02-13T19:22:07.392+05:30  INFO 25823 --- [Chef] [pool-2-thread-2] c.brahmesh.Chef.Service.OrderProcessing  : Preparing order 323
+2026-02-13T19:22:08.093+05:30  INFO 25823 --- [Chef] [pool-2-thread-1] c.brahmesh.Chef.Service.OrderProcessing  : Order 32 Delivered
+2026-02-13T19:22:08.507+05:30  INFO 25823 --- [Chef] [pool-2-thread-2] c.brahmesh.Chef.Service.OrderProcessing  : Order 323 ready for delivery.
+2026-02-13T19:22:08.511+05:30  INFO 25823 --- [Chef] [pool-2-thread-2] c.brahmesh.Chef.Service.OrderProcessing  : Delivering order 323
+2026-02-13T19:22:10.351+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    : Received Order: 123
+2026-02-13T19:22:10.352+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    :  Going to Chef for processing
+2026-02-13T19:22:10.359+05:30  INFO 25823 --- [Chef] [pool-2-thread-3] c.brahmesh.Chef.Service.OrderProcessing  : Preparing order 123
+2026-02-13T19:22:10.757+05:30  INFO 25823 --- [Chef] [pool-2-thread-2] c.brahmesh.Chef.Service.OrderProcessing  : Order 323 Delivered
+2026-02-13T19:22:11.461+05:30  INFO 25823 --- [Chef] [pool-2-thread-3] c.brahmesh.Chef.Service.OrderProcessing  : Order 123 ready for delivery.
+2026-02-13T19:22:11.462+05:30  INFO 25823 --- [Chef] [pool-2-thread-3] c.brahmesh.Chef.Service.OrderProcessing  : Delivering order 123
+2026-02-13T19:22:13.072+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    : Received Order: 123
+2026-02-13T19:22:13.072+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    :  Going to Chef for processing
+2026-02-13T19:22:13.098+05:30  INFO 25823 --- [Chef] [pool-2-thread-4] c.brahmesh.Chef.Service.OrderProcessing  : Preparing order 123
+2026-02-13T19:22:13.674+05:30  INFO 25823 --- [Chef] [pool-2-thread-3] c.brahmesh.Chef.Service.OrderProcessing  : Order 123 Delivered
+2026-02-13T19:22:14.201+05:30  INFO 25823 --- [Chef] [pool-2-thread-4] c.brahmesh.Chef.Service.OrderProcessing  : Order 123 ready for delivery.
+2026-02-13T19:22:14.202+05:30  INFO 25823 --- [Chef] [pool-2-thread-4] c.brahmesh.Chef.Service.OrderProcessing  : Delivering order 123
+2026-02-13T19:22:16.407+05:30  INFO 25823 --- [Chef] [pool-2-thread-4] c.brahmesh.Chef.Service.OrderProcessing  : Order 123 Delivered
+2026-02-13T19:22:17.021+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    : Received Order: 22
+2026-02-13T19:22:17.021+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    :  Going to Chef for processing
+2026-02-13T19:22:17.027+05:30  INFO 25823 --- [Chef] [pool-2-thread-5] c.brahmesh.Chef.Service.OrderProcessing  : Preparing order 22
+2026-02-13T19:22:18.129+05:30  INFO 25823 --- [Chef] [pool-2-thread-5] c.brahmesh.Chef.Service.OrderProcessing  : Order 22 ready for delivery.
+2026-02-13T19:22:18.130+05:30  INFO 25823 --- [Chef] [pool-2-thread-5] c.brahmesh.Chef.Service.OrderProcessing  : Delivering order 22
+2026-02-13T19:22:20.341+05:30  INFO 25823 --- [Chef] [pool-2-thread-5] c.brahmesh.Chef.Service.OrderProcessing  : Order 22 Delivered
+2026-02-13T19:22:21.214+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    : Received Order: 321
+2026-02-13T19:22:21.214+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    :  Going to Chef for processing
+2026-02-13T19:22:21.220+05:30  INFO 25823 --- [Chef] [pool-2-thread-6] c.brahmesh.Chef.Service.OrderProcessing  : Preparing order 321
+2026-02-13T19:22:22.377+05:30  INFO 25823 --- [Chef] [pool-2-thread-6] c.brahmesh.Chef.Service.OrderProcessing  : Order 321 ready for delivery.
+2026-02-13T19:22:22.378+05:30  INFO 25823 --- [Chef] [pool-2-thread-6] c.brahmesh.Chef.Service.OrderProcessing  : Delivering order 321
+2026-02-13T19:22:24.262+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    : Received Order: 1212
+2026-02-13T19:22:24.264+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    :  Going to Chef for processing
+2026-02-13T19:22:24.404+05:30  INFO 25823 --- [Chef] [pool-2-thread-9] c.brahmesh.Chef.Service.OrderProcessing  : Preparing order 1212
+2026-02-13T19:22:24.628+05:30  INFO 25823 --- [Chef] [pool-2-thread-6] c.brahmesh.Chef.Service.OrderProcessing  : Order 321 Delivered
+2026-02-13T19:22:25.508+05:30  INFO 25823 --- [Chef] [pool-2-thread-9] c.brahmesh.Chef.Service.OrderProcessing  : Order 1212 ready for delivery.
+2026-02-13T19:22:25.508+05:30  INFO 25823 --- [Chef] [pool-2-thread-9] c.brahmesh.Chef.Service.OrderProcessing  : Delivering order 1212
+2026-02-13T19:22:27.719+05:30  INFO 25823 --- [Chef] [pool-2-thread-9] c.brahmesh.Chef.Service.OrderProcessing  : Order 1212 Delivered
+2026-02-13T19:22:28.718+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    : Received Order: 1212
+2026-02-13T19:22:28.719+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    :  Going to Chef for processing
+2026-02-13T19:22:28.756+05:30  INFO 25823 --- [Chef] [pool-2-thread-7] c.brahmesh.Chef.Service.OrderProcessing  : Preparing order 1212
+2026-02-13T19:22:29.860+05:30  INFO 25823 --- [Chef] [pool-2-thread-7] c.brahmesh.Chef.Service.OrderProcessing  : Order 1212 ready for delivery.
+2026-02-13T19:22:29.861+05:30  INFO 25823 --- [Chef] [pool-2-thread-7] c.brahmesh.Chef.Service.OrderProcessing  : Delivering order 1212
+2026-02-13T19:22:31.724+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    : Received Order: 43
+2026-02-13T19:22:31.724+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    :  Going to Chef for processing
+2026-02-13T19:22:31.732+05:30  INFO 25823 --- [Chef] [pool-2-thread-10] c.brahmesh.Chef.Service.OrderProcessing  : Preparing order 43
+2026-02-13T19:22:32.070+05:30  INFO 25823 --- [Chef] [pool-2-thread-7] c.brahmesh.Chef.Service.OrderProcessing  : Order 1212 Delivered
+2026-02-13T19:22:32.835+05:30  INFO 25823 --- [Chef] [pool-2-thread-10] c.brahmesh.Chef.Service.OrderProcessing  : Order 43 ready for delivery.
+2026-02-13T19:22:32.835+05:30  INFO 25823 --- [Chef] [pool-2-thread-10] c.brahmesh.Chef.Service.OrderProcessing  : Delivering order 43
+2026-02-13T19:22:34.345+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    : Received Order: 54
+2026-02-13T19:22:34.346+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    :  Going to Chef for processing
+2026-02-13T19:22:34.354+05:30  INFO 25823 --- [Chef] [pool-2-thread-8] c.brahmesh.Chef.Service.OrderProcessing  : Preparing order 54
+2026-02-13T19:22:35.045+05:30  INFO 25823 --- [Chef] [pool-2-thread-10] c.brahmesh.Chef.Service.OrderProcessing  : Order 43 Delivered
+2026-02-13T19:22:35.455+05:30  INFO 25823 --- [Chef] [pool-2-thread-8] c.brahmesh.Chef.Service.OrderProcessing  : Order 54 ready for delivery.
+2026-02-13T19:22:35.456+05:30  INFO 25823 --- [Chef] [pool-2-thread-8] c.brahmesh.Chef.Service.OrderProcessing  : Delivering order 54
+2026-02-13T19:22:37.676+05:30  INFO 25823 --- [Chef] [pool-2-thread-8] c.brahmesh.Chef.Service.OrderProcessing  : Order 54 Delivered
+2026-02-13T19:22:38.063+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    : Received Order: 98
+2026-02-13T19:22:38.064+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    :  Going to Chef for processing
+2026-02-13T19:22:38.075+05:30  INFO 25823 --- [Chef] [pool-2-thread-1] c.brahmesh.Chef.Service.OrderProcessing  : Preparing order 98
+2026-02-13T19:22:39.180+05:30  INFO 25823 --- [Chef] [pool-2-thread-1] c.brahmesh.Chef.Service.OrderProcessing  : Order 98 ready for delivery.
+2026-02-13T19:22:39.180+05:30  INFO 25823 --- [Chef] [pool-2-thread-1] c.brahmesh.Chef.Service.OrderProcessing  : Delivering order 98
+2026-02-13T19:22:40.711+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    : Received Order: 78
+2026-02-13T19:22:40.711+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    :  Going to Chef for processing
+2026-02-13T19:22:40.724+05:30  INFO 25823 --- [Chef] [pool-2-thread-2] c.brahmesh.Chef.Service.OrderProcessing  : Preparing order 78
+2026-02-13T19:22:41.469+05:30  INFO 25823 --- [Chef] [pool-2-thread-1] c.brahmesh.Chef.Service.OrderProcessing  : Order 98 Delivered
+2026-02-13T19:22:41.826+05:30  INFO 25823 --- [Chef] [pool-2-thread-2] c.brahmesh.Chef.Service.OrderProcessing  : Order 78 ready for delivery.
+2026-02-13T19:22:41.826+05:30  INFO 25823 --- [Chef] [pool-2-thread-2] c.brahmesh.Chef.Service.OrderProcessing  : Delivering order 78
+2026-02-13T19:22:44.033+05:30  INFO 25823 --- [Chef] [pool-2-thread-2] c.brahmesh.Chef.Service.OrderProcessing  : Order 78 Delivered
+2026-02-13T19:22:44.168+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    : Received Order: 67
+2026-02-13T19:22:44.168+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    :  Going to Chef for processing
+2026-02-13T19:22:44.174+05:30  INFO 25823 --- [Chef] [pool-2-thread-3] c.brahmesh.Chef.Service.OrderProcessing  : Preparing order 67
+2026-02-13T19:22:45.277+05:30  INFO 25823 --- [Chef] [pool-2-thread-3] c.brahmesh.Chef.Service.OrderProcessing  : Order 67 ready for delivery.
+2026-02-13T19:22:45.278+05:30  INFO 25823 --- [Chef] [pool-2-thread-3] c.brahmesh.Chef.Service.OrderProcessing  : Delivering order 67
+2026-02-13T19:22:46.381+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    : Received Order: 65
+2026-02-13T19:22:46.381+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    :  Going to Chef for processing
+2026-02-13T19:22:46.388+05:30  INFO 25823 --- [Chef] [pool-2-thread-4] c.brahmesh.Chef.Service.OrderProcessing  : Preparing order 65
+2026-02-13T19:22:47.487+05:30  INFO 25823 --- [Chef] [pool-2-thread-3] c.brahmesh.Chef.Service.OrderProcessing  : Order 67 Delivered
+2026-02-13T19:22:47.489+05:30  INFO 25823 --- [Chef] [pool-2-thread-4] c.brahmesh.Chef.Service.OrderProcessing  : Order 65 ready for delivery.
+2026-02-13T19:22:47.489+05:30  INFO 25823 --- [Chef] [pool-2-thread-4] c.brahmesh.Chef.Service.OrderProcessing  : Delivering order 65
+2026-02-13T19:22:49.723+05:30  INFO 25823 --- [Chef] [pool-2-thread-4] c.brahmesh.Chef.Service.OrderProcessing  : Order 65 Delivered
+2026-02-13T19:22:50.176+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    : Received Order: 65
+2026-02-13T19:22:50.177+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    :  Going to Chef for processing
+2026-02-13T19:22:50.186+05:30  INFO 25823 --- [Chef] [pool-2-thread-5] c.brahmesh.Chef.Service.OrderProcessing  : Preparing order 65
+2026-02-13T19:22:51.289+05:30  INFO 25823 --- [Chef] [pool-2-thread-5] c.brahmesh.Chef.Service.OrderProcessing  : Order 65 ready for delivery.
+2026-02-13T19:22:51.289+05:30  INFO 25823 --- [Chef] [pool-2-thread-5] c.brahmesh.Chef.Service.OrderProcessing  : Delivering order 65
+2026-02-13T19:22:52.827+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    : Received Order: 45
+2026-02-13T19:22:52.827+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    :  Going to Chef for processing
+2026-02-13T19:22:52.836+05:30  INFO 25823 --- [Chef] [pool-2-thread-6] c.brahmesh.Chef.Service.OrderProcessing  : Preparing order 45
+2026-02-13T19:22:53.500+05:30  INFO 25823 --- [Chef] [pool-2-thread-5] c.brahmesh.Chef.Service.OrderProcessing  : Order 65 Delivered
+2026-02-13T19:22:53.937+05:30  INFO 25823 --- [Chef] [pool-2-thread-6] c.brahmesh.Chef.Service.OrderProcessing  : Order 45 ready for delivery.
+2026-02-13T19:22:53.937+05:30  INFO 25823 --- [Chef] [pool-2-thread-6] c.brahmesh.Chef.Service.OrderProcessing  : Delivering order 45
+2026-02-13T19:22:55.462+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    : Received Order: 43
+2026-02-13T19:22:55.462+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    :  Going to Chef for processing
+2026-02-13T19:22:55.467+05:30  INFO 25823 --- [Chef] [pool-2-thread-9] c.brahmesh.Chef.Service.OrderProcessing  : Preparing order 43
+2026-02-13T19:22:56.152+05:30  INFO 25823 --- [Chef] [pool-2-thread-6] c.brahmesh.Chef.Service.OrderProcessing  : Order 45 Delivered
+2026-02-13T19:22:56.570+05:30  INFO 25823 --- [Chef] [pool-2-thread-9] c.brahmesh.Chef.Service.OrderProcessing  : Order 43 ready for delivery.
+2026-02-13T19:22:56.571+05:30  INFO 25823 --- [Chef] [pool-2-thread-9] c.brahmesh.Chef.Service.OrderProcessing  : Delivering order 43
+2026-02-13T19:22:58.311+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    : Received Order: 23
+2026-02-13T19:22:58.311+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    :  Going to Chef for processing
+2026-02-13T19:22:58.356+05:30  INFO 25823 --- [Chef] [pool-2-thread-7] c.brahmesh.Chef.Service.OrderProcessing  : Preparing order 23
+2026-02-13T19:22:58.784+05:30  INFO 25823 --- [Chef] [pool-2-thread-9] c.brahmesh.Chef.Service.OrderProcessing  : Order 43 Delivered
+2026-02-13T19:22:59.456+05:30  INFO 25823 --- [Chef] [pool-2-thread-7] c.brahmesh.Chef.Service.OrderProcessing  : Order 23 ready for delivery.
+2026-02-13T19:22:59.457+05:30  INFO 25823 --- [Chef] [pool-2-thread-7] c.brahmesh.Chef.Service.OrderProcessing  : Delivering order 23
+2026-02-13T19:23:01.666+05:30  INFO 25823 --- [Chef] [pool-2-thread-7] c.brahmesh.Chef.Service.OrderProcessing  : Order 23 Delivered
+2026-02-13T19:23:01.723+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    : Received Order: 12
+2026-02-13T19:23:01.723+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    :  Going to Chef for processing
+2026-02-13T19:23:01.732+05:30  INFO 25823 --- [Chef] [pool-2-thread-10] c.brahmesh.Chef.Service.OrderProcessing  : Preparing order 12
+2026-02-13T19:23:02.832+05:30  INFO 25823 --- [Chef] [pool-2-thread-10] c.brahmesh.Chef.Service.OrderProcessing  : Order 12 ready for delivery.
+2026-02-13T19:23:02.833+05:30  INFO 25823 --- [Chef] [pool-2-thread-10] c.brahmesh.Chef.Service.OrderProcessing  : Delivering order 12
+2026-02-13T19:23:04.409+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    : Received Order: 13
+2026-02-13T19:23:04.409+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    :  Going to Chef for processing
+2026-02-13T19:23:04.419+05:30  INFO 25823 --- [Chef] [pool-2-thread-8] c.brahmesh.Chef.Service.OrderProcessing  : Preparing order 13
+2026-02-13T19:23:05.039+05:30  INFO 25823 --- [Chef] [pool-2-thread-10] c.brahmesh.Chef.Service.OrderProcessing  : Order 12 Delivered
+2026-02-13T19:23:05.523+05:30  INFO 25823 --- [Chef] [pool-2-thread-8] c.brahmesh.Chef.Service.OrderProcessing  : Order 13 ready for delivery.
+2026-02-13T19:23:05.523+05:30  INFO 25823 --- [Chef] [pool-2-thread-8] c.brahmesh.Chef.Service.OrderProcessing  : Delivering order 13
+2026-02-13T19:23:07.418+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    : Received Order: 24
+2026-02-13T19:23:07.418+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    :  Going to Chef for processing
+2026-02-13T19:23:07.425+05:30  INFO 25823 --- [Chef] [pool-2-thread-1] c.brahmesh.Chef.Service.OrderProcessing  : Preparing order 24
+2026-02-13T19:23:07.731+05:30  INFO 25823 --- [Chef] [pool-2-thread-8] c.brahmesh.Chef.Service.OrderProcessing  : Order 13 Delivered
+2026-02-13T19:23:08.527+05:30  INFO 25823 --- [Chef] [pool-2-thread-1] c.brahmesh.Chef.Service.OrderProcessing  : Order 24 ready for delivery.
+2026-02-13T19:23:08.528+05:30  INFO 25823 --- [Chef] [pool-2-thread-1] c.brahmesh.Chef.Service.OrderProcessing  : Delivering order 24
+2026-02-13T19:23:10.828+05:30  INFO 25823 --- [Chef] [pool-2-thread-1] c.brahmesh.Chef.Service.OrderProcessing  : Order 24 Delivered
+2026-02-13T19:25:07.790+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    : Received Order: 24
+2026-02-13T19:25:07.794+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    :  Going to Chef for processing
+2026-02-13T19:25:07.879+05:30  INFO 25823 --- [Chef] [pool-2-thread-2] c.brahmesh.Chef.Service.OrderProcessing  : Preparing order 24
+2026-02-13T19:25:08.738+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    : Received Order: 24
+2026-02-13T19:25:08.738+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    :  Going to Chef for processing
+2026-02-13T19:25:08.766+05:30  INFO 25823 --- [Chef] [pool-2-thread-3] c.brahmesh.Chef.Service.OrderProcessing  : Preparing order 24
+2026-02-13T19:25:09.000+05:30  INFO 25823 --- [Chef] [pool-2-thread-2] c.brahmesh.Chef.Service.OrderProcessing  : Order 24 ready for delivery.
+2026-02-13T19:25:09.013+05:30  INFO 25823 --- [Chef] [pool-2-thread-2] c.brahmesh.Chef.Service.OrderProcessing  : Delivering order 24
+2026-02-13T19:25:09.165+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    : Received Order: 24
+2026-02-13T19:25:09.166+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    :  Going to Chef for processing
+2026-02-13T19:25:09.170+05:30  INFO 25823 --- [Chef] [pool-2-thread-4] c.brahmesh.Chef.Service.OrderProcessing  : Preparing order 24
+2026-02-13T19:25:09.871+05:30  INFO 25823 --- [Chef] [pool-2-thread-3] c.brahmesh.Chef.Service.OrderProcessing  : Order 24 ready for delivery.
+2026-02-13T19:25:09.871+05:30  INFO 25823 --- [Chef] [pool-2-thread-3] c.brahmesh.Chef.Service.OrderProcessing  : Delivering order 24
+2026-02-13T19:25:10.274+05:30  INFO 25823 --- [Chef] [pool-2-thread-4] c.brahmesh.Chef.Service.OrderProcessing  : Order 24 ready for delivery.
+2026-02-13T19:25:10.274+05:30  INFO 25823 --- [Chef] [pool-2-thread-4] c.brahmesh.Chef.Service.OrderProcessing  : Delivering order 24
+2026-02-13T19:25:10.599+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    : Received Order: 24
+2026-02-13T19:25:10.599+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    :  Going to Chef for processing
+2026-02-13T19:25:10.604+05:30  INFO 25823 --- [Chef] [pool-2-thread-5] c.brahmesh.Chef.Service.OrderProcessing  : Preparing order 24
+2026-02-13T19:25:11.269+05:30  INFO 25823 --- [Chef] [pool-2-thread-2] c.brahmesh.Chef.Service.OrderProcessing  : Order 24 Delivered
+2026-02-13T19:25:11.708+05:30  INFO 25823 --- [Chef] [pool-2-thread-5] c.brahmesh.Chef.Service.OrderProcessing  : Order 24 ready for delivery.
+2026-02-13T19:25:11.708+05:30  INFO 25823 --- [Chef] [pool-2-thread-5] c.brahmesh.Chef.Service.OrderProcessing  : Delivering order 24
+2026-02-13T19:25:12.081+05:30  INFO 25823 --- [Chef] [pool-2-thread-3] c.brahmesh.Chef.Service.OrderProcessing  : Order 24 Delivered
+2026-02-13T19:25:12.480+05:30  INFO 25823 --- [Chef] [pool-2-thread-4] c.brahmesh.Chef.Service.OrderProcessing  : Order 24 Delivered
+2026-02-13T19:25:13.912+05:30  INFO 25823 --- [Chef] [pool-2-thread-5] c.brahmesh.Chef.Service.OrderProcessing  : Order 24 Delivered
+2026-02-13T19:26:59.834+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    : Received Order: 12
+2026-02-13T19:26:59.835+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    :  Going to Chef for processing
+2026-02-13T19:26:59.884+05:30  INFO 25823 --- [Chef] [pool-2-thread-6] c.brahmesh.Chef.Service.OrderProcessing  : Preparing order 12
+2026-02-13T19:27:00.991+05:30  INFO 25823 --- [Chef] [pool-2-thread-6] c.brahmesh.Chef.Service.OrderProcessing  : Order 12 ready for delivery.
+2026-02-13T19:27:00.992+05:30  INFO 25823 --- [Chef] [pool-2-thread-6] c.brahmesh.Chef.Service.OrderProcessing  : Delivering order 12
+2026-02-13T19:27:02.502+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    : Received Order: 432
+2026-02-13T19:27:02.502+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    :  Going to Chef for processing
+2026-02-13T19:27:02.509+05:30  INFO 25823 --- [Chef] [pool-2-thread-9] c.brahmesh.Chef.Service.OrderProcessing  : Preparing order 432
+2026-02-13T19:27:03.239+05:30  INFO 25823 --- [Chef] [pool-2-thread-6] c.brahmesh.Chef.Service.OrderProcessing  : Order 12 Delivered
+2026-02-13T19:27:03.610+05:30  INFO 25823 --- [Chef] [pool-2-thread-9] c.brahmesh.Chef.Service.OrderProcessing  : Order 432 ready for delivery.
+2026-02-13T19:27:03.611+05:30  INFO 25823 --- [Chef] [pool-2-thread-9] c.brahmesh.Chef.Service.OrderProcessing  : Delivering order 432
+2026-02-13T19:27:05.508+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    : Received Order: 432
+2026-02-13T19:27:05.509+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    :  Going to Chef for processing
+2026-02-13T19:27:05.515+05:30  INFO 25823 --- [Chef] [pool-2-thread-7] c.brahmesh.Chef.Service.OrderProcessing  : Preparing order 432
+2026-02-13T19:27:05.821+05:30  INFO 25823 --- [Chef] [pool-2-thread-9] c.brahmesh.Chef.Service.OrderProcessing  : Order 432 Delivered
+2026-02-13T19:27:06.619+05:30  INFO 25823 --- [Chef] [pool-2-thread-7] c.brahmesh.Chef.Service.OrderProcessing  : Order 432 ready for delivery.
+2026-02-13T19:27:06.620+05:30  INFO 25823 --- [Chef] [pool-2-thread-7] c.brahmesh.Chef.Service.OrderProcessing  : Delivering order 432
+2026-02-13T19:27:08.831+05:30  INFO 25823 --- [Chef] [pool-2-thread-7] c.brahmesh.Chef.Service.OrderProcessing  : Order 432 Delivered
+2026-02-13T19:27:38.261+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    : Received Order: 11
+2026-02-13T19:27:38.261+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    :  Going to Chef for processing
+2026-02-13T19:27:38.310+05:30  INFO 25823 --- [Chef] [pool-2-thread-10] c.brahmesh.Chef.Service.OrderProcessing  : Preparing order 11
+2026-02-13T19:27:39.415+05:30  INFO 25823 --- [Chef] [pool-2-thread-10] c.brahmesh.Chef.Service.OrderProcessing  : Order 11 ready for delivery.
+2026-02-13T19:27:39.416+05:30  INFO 25823 --- [Chef] [pool-2-thread-10] c.brahmesh.Chef.Service.OrderProcessing  : Delivering order 11
+2026-02-13T19:27:39.427+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    : Received Order: 11
+2026-02-13T19:27:39.427+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    :  Going to Chef for processing
+2026-02-13T19:27:39.432+05:30  INFO 25823 --- [Chef] [pool-2-thread-8] c.brahmesh.Chef.Service.OrderProcessing  : Preparing order 11
+2026-02-13T19:27:40.535+05:30  INFO 25823 --- [Chef] [pool-2-thread-8] c.brahmesh.Chef.Service.OrderProcessing  : Order 11 ready for delivery.
+2026-02-13T19:27:40.536+05:30  INFO 25823 --- [Chef] [pool-2-thread-8] c.brahmesh.Chef.Service.OrderProcessing  : Delivering order 11
+2026-02-13T19:27:41.630+05:30  INFO 25823 --- [Chef] [pool-2-thread-10] c.brahmesh.Chef.Service.OrderProcessing  : Order 11 Delivered
+2026-02-13T19:27:42.745+05:30  INFO 25823 --- [Chef] [pool-2-thread-8] c.brahmesh.Chef.Service.OrderProcessing  : Order 11 Delivered
+2026-02-13T19:39:50.029+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    : Received Order: 11
+2026-02-13T19:39:50.031+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    :  Going to Chef for processing
+2026-02-13T19:39:50.073+05:30  INFO 25823 --- [Chef] [pool-2-thread-1] c.brahmesh.Chef.Service.OrderProcessing  : Preparing order 11
+2026-02-13T19:39:51.173+05:30  INFO 25823 --- [Chef] [pool-2-thread-1] c.brahmesh.Chef.Service.OrderProcessing  : Order 11 ready for delivery.
+2026-02-13T19:39:51.174+05:30  INFO 25823 --- [Chef] [pool-2-thread-1] c.brahmesh.Chef.Service.OrderProcessing  : Delivering order 11
+2026-02-13T19:39:53.425+05:30  INFO 25823 --- [Chef] [pool-2-thread-1] c.brahmesh.Chef.Service.OrderProcessing  : Order 11 Delivered
+2026-02-13T19:40:58.395+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    : Received Order: 11
+2026-02-13T19:40:58.395+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    :  Going to Chef for processing
+2026-02-13T19:40:58.407+05:30  INFO 25823 --- [Chef] [pool-2-thread-2] c.brahmesh.Chef.Service.OrderProcessing  : Preparing order 11
+2026-02-13T19:40:59.512+05:30  INFO 25823 --- [Chef] [pool-2-thread-2] c.brahmesh.Chef.Service.OrderProcessing  : Order 11 ready for delivery.
+2026-02-13T19:40:59.513+05:30  INFO 25823 --- [Chef] [pool-2-thread-2] c.brahmesh.Chef.Service.OrderProcessing  : Delivering order 11
+2026-02-13T19:41:01.725+05:30  INFO 25823 --- [Chef] [pool-2-thread-2] c.brahmesh.Chef.Service.OrderProcessing  : Order 11 Delivered
+2026-02-13T19:41:01.839+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    : Received Order: 11
+2026-02-13T19:41:01.840+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    :  Going to Chef for processing
+2026-02-13T19:41:01.848+05:30  INFO 25823 --- [Chef] [pool-2-thread-3] c.brahmesh.Chef.Service.OrderProcessing  : Preparing order 11
+2026-02-13T19:41:02.949+05:30  INFO 25823 --- [Chef] [pool-2-thread-3] c.brahmesh.Chef.Service.OrderProcessing  : Order 11 ready for delivery.
+2026-02-13T19:41:02.949+05:30  INFO 25823 --- [Chef] [pool-2-thread-3] c.brahmesh.Chef.Service.OrderProcessing  : Delivering order 11
+2026-02-13T19:41:05.160+05:30  INFO 25823 --- [Chef] [pool-2-thread-3] c.brahmesh.Chef.Service.OrderProcessing  : Order 11 Delivered
+2026-02-13T19:43:26.434+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    : Received Order: 123
+2026-02-13T19:43:26.434+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    :  Going to Chef for processing
+2026-02-13T19:43:26.452+05:30  INFO 25823 --- [Chef] [pool-2-thread-4] c.brahmesh.Chef.Service.OrderProcessing  : Preparing order 123
+2026-02-13T19:43:27.578+05:30  INFO 25823 --- [Chef] [pool-2-thread-4] c.brahmesh.Chef.Service.OrderProcessing  : Order 123 ready for delivery.
+2026-02-13T19:43:27.578+05:30  INFO 25823 --- [Chef] [pool-2-thread-4] c.brahmesh.Chef.Service.OrderProcessing  : Delivering order 123
+2026-02-13T19:43:28.523+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    : Received Order: 123
+2026-02-13T19:43:28.523+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    :  Going to Chef for processing
+2026-02-13T19:43:28.529+05:30  INFO 25823 --- [Chef] [pool-2-thread-5] c.brahmesh.Chef.Service.OrderProcessing  : Preparing order 123
+2026-02-13T19:43:29.629+05:30  INFO 25823 --- [Chef] [pool-2-thread-5] c.brahmesh.Chef.Service.OrderProcessing  : Order 123 ready for delivery.
+2026-02-13T19:43:29.630+05:30  INFO 25823 --- [Chef] [pool-2-thread-5] c.brahmesh.Chef.Service.OrderProcessing  : Delivering order 123
+2026-02-13T19:43:29.803+05:30  INFO 25823 --- [Chef] [pool-2-thread-4] c.brahmesh.Chef.Service.OrderProcessing  : Order 123 Delivered
+2026-02-13T19:43:31.834+05:30  INFO 25823 --- [Chef] [pool-2-thread-5] c.brahmesh.Chef.Service.OrderProcessing  : Order 123 Delivered
+2026-02-13T19:43:35.880+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    : Received Order: 11
+2026-02-13T19:43:35.880+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    :  Going to Chef for processing
+2026-02-13T19:43:35.889+05:30  INFO 25823 --- [Chef] [pool-2-thread-6] c.brahmesh.Chef.Service.OrderProcessing  : Preparing order 11
+2026-02-13T19:43:36.991+05:30  INFO 25823 --- [Chef] [pool-2-thread-6] c.brahmesh.Chef.Service.OrderProcessing  : Order 11 ready for delivery.
+2026-02-13T19:43:36.992+05:30  INFO 25823 --- [Chef] [pool-2-thread-6] c.brahmesh.Chef.Service.OrderProcessing  : Delivering order 11
+2026-02-13T19:43:39.210+05:30  INFO 25823 --- [Chef] [pool-2-thread-6] c.brahmesh.Chef.Service.OrderProcessing  : Order 11 Delivered
+2026-02-13T19:43:39.400+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    : Received Order: 142
+2026-02-13T19:43:39.400+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    :  Going to Chef for processing
+2026-02-13T19:43:39.450+05:30  INFO 25823 --- [Chef] [pool-2-thread-9] c.brahmesh.Chef.Service.OrderProcessing  : Preparing order 142
+2026-02-13T19:43:40.555+05:30  INFO 25823 --- [Chef] [pool-2-thread-9] c.brahmesh.Chef.Service.OrderProcessing  : Order 142 ready for delivery.
+2026-02-13T19:43:40.556+05:30  INFO 25823 --- [Chef] [pool-2-thread-9] c.brahmesh.Chef.Service.OrderProcessing  : Delivering order 142
+2026-02-13T19:43:42.765+05:30  INFO 25823 --- [Chef] [pool-2-thread-9] c.brahmesh.Chef.Service.OrderProcessing  : Order 142 Delivered
+2026-02-13T19:43:43.810+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    : Received Order: 16
+2026-02-13T19:43:43.811+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    :  Going to Chef for processing
+2026-02-13T19:43:43.891+05:30  INFO 25823 --- [Chef] [pool-2-thread-7] c.brahmesh.Chef.Service.OrderProcessing  : Preparing order 16
+2026-02-13T19:43:44.992+05:30  INFO 25823 --- [Chef] [pool-2-thread-7] c.brahmesh.Chef.Service.OrderProcessing  : Order 16 ready for delivery.
+2026-02-13T19:43:44.993+05:30  INFO 25823 --- [Chef] [pool-2-thread-7] c.brahmesh.Chef.Service.OrderProcessing  : Delivering order 16
+2026-02-13T19:43:46.775+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    : Received Order: 123
+2026-02-13T19:43:46.775+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    :  Going to Chef for processing
+2026-02-13T19:43:46.823+05:30  INFO 25823 --- [Chef] [pool-2-thread-10] c.brahmesh.Chef.Service.OrderProcessing  : Preparing order 123
+2026-02-13T19:43:47.205+05:30  INFO 25823 --- [Chef] [pool-2-thread-7] c.brahmesh.Chef.Service.OrderProcessing  : Order 16 Delivered
+2026-02-13T19:43:47.925+05:30  INFO 25823 --- [Chef] [pool-2-thread-10] c.brahmesh.Chef.Service.OrderProcessing  : Order 123 ready for delivery.
+2026-02-13T19:43:47.925+05:30  INFO 25823 --- [Chef] [pool-2-thread-10] c.brahmesh.Chef.Service.OrderProcessing  : Delivering order 123
+2026-02-13T19:43:49.671+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    : Received Order: 156
+2026-02-13T19:43:49.671+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    :  Going to Chef for processing
+2026-02-13T19:43:49.722+05:30  INFO 25823 --- [Chef] [pool-2-thread-8] c.brahmesh.Chef.Service.OrderProcessing  : Preparing order 156
+2026-02-13T19:43:50.134+05:30  INFO 25823 --- [Chef] [pool-2-thread-10] c.brahmesh.Chef.Service.OrderProcessing  : Order 123 Delivered
+2026-02-13T19:43:50.829+05:30  INFO 25823 --- [Chef] [pool-2-thread-8] c.brahmesh.Chef.Service.OrderProcessing  : Order 156 ready for delivery.
+2026-02-13T19:43:50.830+05:30  INFO 25823 --- [Chef] [pool-2-thread-8] c.brahmesh.Chef.Service.OrderProcessing  : Delivering order 156
+2026-02-13T19:43:53.047+05:30  INFO 25823 --- [Chef] [pool-2-thread-8] c.brahmesh.Chef.Service.OrderProcessing  : Order 156 Delivered
+2026-02-13T19:43:53.298+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    : Received Order: 123
+2026-02-13T19:43:53.298+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    :  Going to Chef for processing
+2026-02-13T19:43:53.323+05:30  INFO 25823 --- [Chef] [pool-2-thread-1] c.brahmesh.Chef.Service.OrderProcessing  : Preparing order 123
+2026-02-13T19:43:54.424+05:30  INFO 25823 --- [Chef] [pool-2-thread-1] c.brahmesh.Chef.Service.OrderProcessing  : Order 123 ready for delivery.
+2026-02-13T19:43:54.425+05:30  INFO 25823 --- [Chef] [pool-2-thread-1] c.brahmesh.Chef.Service.OrderProcessing  : Delivering order 123
+2026-02-13T19:43:56.677+05:30  INFO 25823 --- [Chef] [pool-2-thread-1] c.brahmesh.Chef.Service.OrderProcessing  : Order 123 Delivered
+2026-02-13T19:43:56.706+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    : Received Order: 152
+2026-02-13T19:43:56.707+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    :  Going to Chef for processing
+2026-02-13T19:43:56.711+05:30  INFO 25823 --- [Chef] [pool-2-thread-2] c.brahmesh.Chef.Service.OrderProcessing  : Preparing order 152
+2026-02-13T19:43:57.816+05:30  INFO 25823 --- [Chef] [pool-2-thread-2] c.brahmesh.Chef.Service.OrderProcessing  : Order 152 ready for delivery.
+2026-02-13T19:43:57.817+05:30  INFO 25823 --- [Chef] [pool-2-thread-2] c.brahmesh.Chef.Service.OrderProcessing  : Delivering order 152
+2026-02-13T19:43:59.703+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    : Received Order: 12
+2026-02-13T19:43:59.704+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    :  Going to Chef for processing
+2026-02-13T19:43:59.710+05:30  INFO 25823 --- [Chef] [pool-2-thread-3] c.brahmesh.Chef.Service.OrderProcessing  : Preparing order 12
+2026-02-13T19:44:00.023+05:30  INFO 25823 --- [Chef] [pool-2-thread-2] c.brahmesh.Chef.Service.OrderProcessing  : Order 152 Delivered
+2026-02-13T19:44:00.815+05:30  INFO 25823 --- [Chef] [pool-2-thread-3] c.brahmesh.Chef.Service.OrderProcessing  : Order 12 ready for delivery.
+2026-02-13T19:44:00.816+05:30  INFO 25823 --- [Chef] [pool-2-thread-3] c.brahmesh.Chef.Service.OrderProcessing  : Delivering order 12
+2026-02-13T19:44:03.041+05:30  INFO 25823 --- [Chef] [pool-2-thread-3] c.brahmesh.Chef.Service.OrderProcessing  : Order 12 Delivered
+2026-02-13T19:44:05.678+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    : Received Order: 123
+2026-02-13T19:44:05.678+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    :  Going to Chef for processing
+2026-02-13T19:44:05.685+05:30  INFO 25823 --- [Chef] [pool-2-thread-4] c.brahmesh.Chef.Service.OrderProcessing  : Preparing order 123
+2026-02-13T19:44:06.787+05:30  INFO 25823 --- [Chef] [pool-2-thread-4] c.brahmesh.Chef.Service.OrderProcessing  : Order 123 ready for delivery.
+2026-02-13T19:44:06.787+05:30  INFO 25823 --- [Chef] [pool-2-thread-4] c.brahmesh.Chef.Service.OrderProcessing  : Delivering order 123
+2026-02-13T19:44:07.083+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    : Received Order: 131
+2026-02-13T19:44:07.083+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    :  Going to Chef for processing
+2026-02-13T19:44:07.089+05:30  INFO 25823 --- [Chef] [pool-2-thread-5] c.brahmesh.Chef.Service.OrderProcessing  : Preparing order 131
+2026-02-13T19:44:08.191+05:30  INFO 25823 --- [Chef] [pool-2-thread-5] c.brahmesh.Chef.Service.OrderProcessing  : Order 131 ready for delivery.
+2026-02-13T19:44:08.193+05:30  INFO 25823 --- [Chef] [pool-2-thread-5] c.brahmesh.Chef.Service.OrderProcessing  : Delivering order 131
+2026-02-13T19:44:09.001+05:30  INFO 25823 --- [Chef] [pool-2-thread-4] c.brahmesh.Chef.Service.OrderProcessing  : Order 123 Delivered
+2026-02-13T19:44:09.753+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    : Received Order: 51
+2026-02-13T19:44:09.753+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    :  Going to Chef for processing
+2026-02-13T19:44:09.800+05:30  INFO 25823 --- [Chef] [pool-2-thread-6] c.brahmesh.Chef.Service.OrderProcessing  : Preparing order 51
+2026-02-13T19:44:10.407+05:30  INFO 25823 --- [Chef] [pool-2-thread-5] c.brahmesh.Chef.Service.OrderProcessing  : Order 131 Delivered
+2026-02-13T19:44:10.902+05:30  INFO 25823 --- [Chef] [pool-2-thread-6] c.brahmesh.Chef.Service.OrderProcessing  : Order 51 ready for delivery.
+2026-02-13T19:44:10.904+05:30  INFO 25823 --- [Chef] [pool-2-thread-6] c.brahmesh.Chef.Service.OrderProcessing  : Delivering order 51
+2026-02-13T19:44:13.119+05:30  INFO 25823 --- [Chef] [pool-2-thread-6] c.brahmesh.Chef.Service.OrderProcessing  : Order 51 Delivered
+2026-02-13T19:44:13.189+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    : Received Order: 512
+2026-02-13T19:44:13.190+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    :  Going to Chef for processing
+2026-02-13T19:44:13.207+05:30  INFO 25823 --- [Chef] [pool-2-thread-9] c.brahmesh.Chef.Service.OrderProcessing  : Preparing order 512
+2026-02-13T19:44:14.310+05:30  INFO 25823 --- [Chef] [pool-2-thread-9] c.brahmesh.Chef.Service.OrderProcessing  : Order 512 ready for delivery.
+2026-02-13T19:44:14.310+05:30  INFO 25823 --- [Chef] [pool-2-thread-9] c.brahmesh.Chef.Service.OrderProcessing  : Delivering order 512
+2026-02-13T19:44:16.517+05:30  INFO 25823 --- [Chef] [pool-2-thread-9] c.brahmesh.Chef.Service.OrderProcessing  : Order 512 Delivered
+2026-02-13T19:50:18.910+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    : Received Order: 675
+2026-02-13T19:50:18.917+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    :  Going to Chef for processing
+2026-02-13T19:50:18.974+05:30  INFO 25823 --- [Chef] [pool-2-thread-7] c.brahmesh.Chef.Service.OrderProcessing  : Preparing order 675
+2026-02-13T19:50:20.078+05:30  INFO 25823 --- [Chef] [pool-2-thread-7] c.brahmesh.Chef.Service.OrderProcessing  : Order 675 ready for delivery.
+2026-02-13T19:50:20.078+05:30  INFO 25823 --- [Chef] [pool-2-thread-7] c.brahmesh.Chef.Service.OrderProcessing  : Delivering order 675
+2026-02-13T19:50:22.335+05:30  INFO 25823 --- [Chef] [pool-2-thread-7] c.brahmesh.Chef.Service.OrderProcessing  : Order 675 Delivered
+2026-02-13T19:50:25.619+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    : Received Order: 879
+2026-02-13T19:50:25.619+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    :  Going to Chef for processing
+2026-02-13T19:50:25.627+05:30  INFO 25823 --- [Chef] [pool-2-thread-10] c.brahmesh.Chef.Service.OrderProcessing  : Preparing order 879
+2026-02-13T19:50:26.728+05:30  INFO 25823 --- [Chef] [pool-2-thread-10] c.brahmesh.Chef.Service.OrderProcessing  : Order 879 ready for delivery.
+2026-02-13T19:50:26.728+05:30  INFO 25823 --- [Chef] [pool-2-thread-10] c.brahmesh.Chef.Service.OrderProcessing  : Delivering order 879
+2026-02-13T19:50:28.970+05:30  INFO 25823 --- [Chef] [pool-2-thread-10] c.brahmesh.Chef.Service.OrderProcessing  : Order 879 Delivered
+2026-02-13T19:50:29.205+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    : Received Order: 12331
+2026-02-13T19:50:29.206+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    :  Going to Chef for processing
+2026-02-13T19:50:29.215+05:30  INFO 25823 --- [Chef] [pool-2-thread-8] c.brahmesh.Chef.Service.OrderProcessing  : Preparing order 12331
+2026-02-13T19:50:30.317+05:30  INFO 25823 --- [Chef] [pool-2-thread-8] c.brahmesh.Chef.Service.OrderProcessing  : Order 12331 ready for delivery.
+2026-02-13T19:50:30.317+05:30  INFO 25823 --- [Chef] [pool-2-thread-8] c.brahmesh.Chef.Service.OrderProcessing  : Delivering order 12331
+2026-02-13T19:50:32.581+05:30  INFO 25823 --- [Chef] [pool-2-thread-8] c.brahmesh.Chef.Service.OrderProcessing  : Order 12331 Delivered
+2026-02-13T19:50:32.702+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    : Received Order: 67
+2026-02-13T19:50:32.702+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    :  Going to Chef for processing
+2026-02-13T19:50:32.709+05:30  INFO 25823 --- [Chef] [pool-2-thread-1] c.brahmesh.Chef.Service.OrderProcessing  : Preparing order 67
+2026-02-13T19:50:33.810+05:30  INFO 25823 --- [Chef] [pool-2-thread-1] c.brahmesh.Chef.Service.OrderProcessing  : Order 67 ready for delivery.
+2026-02-13T19:50:33.810+05:30  INFO 25823 --- [Chef] [pool-2-thread-1] c.brahmesh.Chef.Service.OrderProcessing  : Delivering order 67
+2026-02-13T19:50:36.059+05:30  INFO 25823 --- [Chef] [pool-2-thread-1] c.brahmesh.Chef.Service.OrderProcessing  : Order 67 Delivered
+2026-02-13T19:51:29.151+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    : Received Order: 67
+2026-02-13T19:51:29.152+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    :  Going to Chef for processing
+2026-02-13T19:51:29.160+05:30  INFO 25823 --- [Chef] [pool-2-thread-2] c.brahmesh.Chef.Service.OrderProcessing  : Preparing order 67
+2026-02-13T19:51:30.263+05:30  INFO 25823 --- [Chef] [pool-2-thread-2] c.brahmesh.Chef.Service.OrderProcessing  : Order 67 ready for delivery.
+2026-02-13T19:51:30.263+05:30  INFO 25823 --- [Chef] [pool-2-thread-2] c.brahmesh.Chef.Service.OrderProcessing  : Delivering order 67
+2026-02-13T19:51:32.475+05:30  INFO 25823 --- [Chef] [pool-2-thread-2] c.brahmesh.Chef.Service.OrderProcessing  : Order 67 Delivered
+2026-02-13T20:01:47.450+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    : Received Order: 67
+2026-02-13T20:01:47.452+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    :  Going to Chef for processing
+2026-02-13T20:01:47.580+05:30  INFO 25823 --- [Chef] [pool-2-thread-3] c.brahmesh.Chef.Service.OrderProcessing  : Preparing order 67
+2026-02-13T20:01:48.684+05:30  INFO 25823 --- [Chef] [pool-2-thread-3] c.brahmesh.Chef.Service.OrderProcessing  : Order 67 ready for delivery.
+2026-02-13T20:01:48.684+05:30  INFO 25823 --- [Chef] [pool-2-thread-3] c.brahmesh.Chef.Service.OrderProcessing  : Delivering order 67
+2026-02-13T20:01:48.811+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    : Received Order: 67
+2026-02-13T20:01:48.811+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    :  Going to Chef for processing
+2026-02-13T20:01:48.831+05:30  INFO 25823 --- [Chef] [pool-2-thread-4] c.brahmesh.Chef.Service.OrderProcessing  : Preparing order 67
+2026-02-13T20:01:49.098+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    : Received Order: 67
+2026-02-13T20:01:49.098+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    :  Going to Chef for processing
+2026-02-13T20:01:49.103+05:30  INFO 25823 --- [Chef] [pool-2-thread-5] c.brahmesh.Chef.Service.OrderProcessing  : Preparing order 67
+2026-02-13T20:01:49.934+05:30  INFO 25823 --- [Chef] [pool-2-thread-4] c.brahmesh.Chef.Service.OrderProcessing  : Order 67 ready for delivery.
+2026-02-13T20:01:49.935+05:30  INFO 25823 --- [Chef] [pool-2-thread-4] c.brahmesh.Chef.Service.OrderProcessing  : Delivering order 67
+2026-02-13T20:01:50.169+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    : Received Order: 67
+2026-02-13T20:01:50.169+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    :  Going to Chef for processing
+2026-02-13T20:01:50.175+05:30  INFO 25823 --- [Chef] [pool-2-thread-6] c.brahmesh.Chef.Service.OrderProcessing  : Preparing order 67
+2026-02-13T20:01:50.205+05:30  INFO 25823 --- [Chef] [pool-2-thread-5] c.brahmesh.Chef.Service.OrderProcessing  : Order 67 ready for delivery.
+2026-02-13T20:01:50.206+05:30  INFO 25823 --- [Chef] [pool-2-thread-5] c.brahmesh.Chef.Service.OrderProcessing  : Delivering order 67
+2026-02-13T20:01:50.797+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    : Received Order: 67
+2026-02-13T20:01:50.798+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    :  Going to Chef for processing
+2026-02-13T20:01:50.896+05:30  INFO 25823 --- [Chef] [pool-2-thread-9] c.brahmesh.Chef.Service.OrderProcessing  : Preparing order 67
+2026-02-13T20:01:50.908+05:30  INFO 25823 --- [Chef] [pool-2-thread-3] c.brahmesh.Chef.Service.OrderProcessing  : Order 67 Delivered
+2026-02-13T20:01:51.278+05:30  INFO 25823 --- [Chef] [pool-2-thread-6] c.brahmesh.Chef.Service.OrderProcessing  : Order 67 ready for delivery.
+2026-02-13T20:01:51.279+05:30  INFO 25823 --- [Chef] [pool-2-thread-6] c.brahmesh.Chef.Service.OrderProcessing  : Delivering order 67
+2026-02-13T20:01:51.883+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    : Received Order: 67
+2026-02-13T20:01:51.884+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    :  Going to Chef for processing
+2026-02-13T20:01:51.905+05:30  INFO 25823 --- [Chef] [pool-2-thread-7] c.brahmesh.Chef.Service.OrderProcessing  : Preparing order 67
+2026-02-13T20:01:52.000+05:30  INFO 25823 --- [Chef] [pool-2-thread-9] c.brahmesh.Chef.Service.OrderProcessing  : Order 67 ready for delivery.
+2026-02-13T20:01:52.000+05:30  INFO 25823 --- [Chef] [pool-2-thread-9] c.brahmesh.Chef.Service.OrderProcessing  : Delivering order 67
+2026-02-13T20:01:52.216+05:30  INFO 25823 --- [Chef] [pool-2-thread-4] c.brahmesh.Chef.Service.OrderProcessing  : Order 67 Delivered
+2026-02-13T20:01:52.238+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    : Received Order: 67
+2026-02-13T20:01:52.238+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    :  Going to Chef for processing
+2026-02-13T20:01:52.245+05:30  INFO 25823 --- [Chef] [pool-2-thread-10] c.brahmesh.Chef.Service.OrderProcessing  : Preparing order 67
+2026-02-13T20:01:52.424+05:30  INFO 25823 --- [Chef] [pool-2-thread-5] c.brahmesh.Chef.Service.OrderProcessing  : Order 67 Delivered
+2026-02-13T20:01:52.953+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    : Received Order: 67
+2026-02-13T20:01:52.953+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    :  Going to Chef for processing
+2026-02-13T20:01:52.962+05:30  INFO 25823 --- [Chef] [pool-2-thread-8] c.brahmesh.Chef.Service.OrderProcessing  : Preparing order 67
+2026-02-13T20:01:53.006+05:30  INFO 25823 --- [Chef] [pool-2-thread-7] c.brahmesh.Chef.Service.OrderProcessing  : Order 67 ready for delivery.
+2026-02-13T20:01:53.007+05:30  INFO 25823 --- [Chef] [pool-2-thread-7] c.brahmesh.Chef.Service.OrderProcessing  : Delivering order 67
+2026-02-13T20:01:53.347+05:30  INFO 25823 --- [Chef] [pool-2-thread-10] c.brahmesh.Chef.Service.OrderProcessing  : Order 67 ready for delivery.
+2026-02-13T20:01:53.347+05:30  INFO 25823 --- [Chef] [pool-2-thread-10] c.brahmesh.Chef.Service.OrderProcessing  : Delivering order 67
+2026-02-13T20:01:53.563+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    : Received Order: 67
+2026-02-13T20:01:53.563+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    :  Going to Chef for processing
+2026-02-13T20:01:53.697+05:30  INFO 25823 --- [Chef] [pool-2-thread-1] c.brahmesh.Chef.Service.OrderProcessing  : Preparing order 67
+2026-02-13T20:01:53.698+05:30  INFO 25823 --- [Chef] [pool-2-thread-6] c.brahmesh.Chef.Service.OrderProcessing  : Order 67 Delivered
+2026-02-13T20:01:54.066+05:30  INFO 25823 --- [Chef] [pool-2-thread-8] c.brahmesh.Chef.Service.OrderProcessing  : Order 67 ready for delivery.
+2026-02-13T20:01:54.066+05:30  INFO 25823 --- [Chef] [pool-2-thread-8] c.brahmesh.Chef.Service.OrderProcessing  : Delivering order 67
+2026-02-13T20:01:54.227+05:30  INFO 25823 --- [Chef] [pool-2-thread-9] c.brahmesh.Chef.Service.OrderProcessing  : Order 67 Delivered
+2026-02-13T20:01:54.634+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    : Received Order: 67
+2026-02-13T20:01:54.635+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    :  Going to Chef for processing
+2026-02-13T20:01:54.645+05:30  INFO 25823 --- [Chef] [pool-2-thread-2] c.brahmesh.Chef.Service.OrderProcessing  : Preparing order 67
+2026-02-13T20:01:54.799+05:30  INFO 25823 --- [Chef] [pool-2-thread-1] c.brahmesh.Chef.Service.OrderProcessing  : Order 67 ready for delivery.
+2026-02-13T20:01:54.799+05:30  INFO 25823 --- [Chef] [pool-2-thread-1] c.brahmesh.Chef.Service.OrderProcessing  : Delivering order 67
+2026-02-13T20:01:55.258+05:30  INFO 25823 --- [Chef] [pool-2-thread-7] c.brahmesh.Chef.Service.OrderProcessing  : Order 67 Delivered
+2026-02-13T20:01:55.556+05:30  INFO 25823 --- [Chef] [pool-2-thread-10] c.brahmesh.Chef.Service.OrderProcessing  : Order 67 Delivered
+2026-02-13T20:01:55.747+05:30  INFO 25823 --- [Chef] [pool-2-thread-2] c.brahmesh.Chef.Service.OrderProcessing  : Order 67 ready for delivery.
+2026-02-13T20:01:55.747+05:30  INFO 25823 --- [Chef] [pool-2-thread-2] c.brahmesh.Chef.Service.OrderProcessing  : Delivering order 67
+2026-02-13T20:01:56.275+05:30  INFO 25823 --- [Chef] [pool-2-thread-8] c.brahmesh.Chef.Service.OrderProcessing  : Order 67 Delivered
+2026-02-13T20:01:57.017+05:30  INFO 25823 --- [Chef] [pool-2-thread-1] c.brahmesh.Chef.Service.OrderProcessing  : Order 67 Delivered
+2026-02-13T20:01:57.965+05:30  INFO 25823 --- [Chef] [pool-2-thread-2] c.brahmesh.Chef.Service.OrderProcessing  : Order 67 Delivered
+2026-02-13T20:02:00.650+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    : Received Order: 3
+2026-02-13T20:02:00.651+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    :  Going to Chef for processing
+2026-02-13T20:02:00.661+05:30  INFO 25823 --- [Chef] [pool-2-thread-3] c.brahmesh.Chef.Service.OrderProcessing  : Preparing order 3
+2026-02-13T20:02:01.764+05:30  INFO 25823 --- [Chef] [pool-2-thread-3] c.brahmesh.Chef.Service.OrderProcessing  : Order 3 ready for delivery.
+2026-02-13T20:02:01.764+05:30  INFO 25823 --- [Chef] [pool-2-thread-3] c.brahmesh.Chef.Service.OrderProcessing  : Delivering order 3
+2026-02-13T20:02:03.974+05:30  INFO 25823 --- [Chef] [pool-2-thread-3] c.brahmesh.Chef.Service.OrderProcessing  : Order 3 Delivered
+2026-02-13T20:02:04.148+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    : Received Order: 40
+2026-02-13T20:02:04.150+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    :  Going to Chef for processing
+2026-02-13T20:02:04.196+05:30  INFO 25823 --- [Chef] [pool-2-thread-4] c.brahmesh.Chef.Service.OrderProcessing  : Preparing order 40
+2026-02-13T20:02:05.221+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    : Received Order: 40
+2026-02-13T20:02:05.221+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    :  Going to Chef for processing
+2026-02-13T20:02:05.227+05:30  INFO 25823 --- [Chef] [pool-2-thread-5] c.brahmesh.Chef.Service.OrderProcessing  : Preparing order 40
+2026-02-13T20:02:05.300+05:30  INFO 25823 --- [Chef] [pool-2-thread-4] c.brahmesh.Chef.Service.OrderProcessing  : Order 40 ready for delivery.
+2026-02-13T20:02:05.300+05:30  INFO 25823 --- [Chef] [pool-2-thread-4] c.brahmesh.Chef.Service.OrderProcessing  : Delivering order 40
+2026-02-13T20:02:05.869+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    : Received Order: 40
+2026-02-13T20:02:05.869+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    :  Going to Chef for processing
+2026-02-13T20:02:05.878+05:30  INFO 25823 --- [Chef] [pool-2-thread-6] c.brahmesh.Chef.Service.OrderProcessing  : Preparing order 40
+2026-02-13T20:02:06.332+05:30  INFO 25823 --- [Chef] [pool-2-thread-5] c.brahmesh.Chef.Service.OrderProcessing  : Order 40 ready for delivery.
+2026-02-13T20:02:06.333+05:30  INFO 25823 --- [Chef] [pool-2-thread-5] c.brahmesh.Chef.Service.OrderProcessing  : Delivering order 40
+2026-02-13T20:02:06.616+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    : Received Order: 40
+2026-02-13T20:02:06.616+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    :  Going to Chef for processing
+2026-02-13T20:02:06.621+05:30  INFO 25823 --- [Chef] [pool-2-thread-9] c.brahmesh.Chef.Service.OrderProcessing  : Preparing order 40
+2026-02-13T20:02:06.979+05:30  INFO 25823 --- [Chef] [pool-2-thread-6] c.brahmesh.Chef.Service.OrderProcessing  : Order 40 ready for delivery.
+2026-02-13T20:02:06.979+05:30  INFO 25823 --- [Chef] [pool-2-thread-6] c.brahmesh.Chef.Service.OrderProcessing  : Delivering order 40
+2026-02-13T20:02:07.303+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    : Received Order: 40
+2026-02-13T20:02:07.304+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    :  Going to Chef for processing
+2026-02-13T20:02:07.316+05:30  INFO 25823 --- [Chef] [pool-2-thread-7] c.brahmesh.Chef.Service.OrderProcessing  : Preparing order 40
+2026-02-13T20:02:07.513+05:30  INFO 25823 --- [Chef] [pool-2-thread-4] c.brahmesh.Chef.Service.OrderProcessing  : Order 40 Delivered
+2026-02-13T20:02:07.726+05:30  INFO 25823 --- [Chef] [pool-2-thread-9] c.brahmesh.Chef.Service.OrderProcessing  : Order 40 ready for delivery.
+2026-02-13T20:02:07.727+05:30  INFO 25823 --- [Chef] [pool-2-thread-9] c.brahmesh.Chef.Service.OrderProcessing  : Delivering order 40
+2026-02-13T20:02:07.992+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    : Received Order: 40
+2026-02-13T20:02:07.992+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    :  Going to Chef for processing
+2026-02-13T20:02:08.069+05:30  INFO 25823 --- [Chef] [pool-2-thread-10] c.brahmesh.Chef.Service.OrderProcessing  : Preparing order 40
+2026-02-13T20:02:08.423+05:30  INFO 25823 --- [Chef] [pool-2-thread-7] c.brahmesh.Chef.Service.OrderProcessing  : Order 40 ready for delivery.
+2026-02-13T20:02:08.423+05:30  INFO 25823 --- [Chef] [pool-2-thread-7] c.brahmesh.Chef.Service.OrderProcessing  : Delivering order 40
+2026-02-13T20:02:08.545+05:30  INFO 25823 --- [Chef] [pool-2-thread-5] c.brahmesh.Chef.Service.OrderProcessing  : Order 40 Delivered
+2026-02-13T20:02:09.170+05:30  INFO 25823 --- [Chef] [pool-2-thread-10] c.brahmesh.Chef.Service.OrderProcessing  : Order 40 ready for delivery.
+2026-02-13T20:02:09.170+05:30  INFO 25823 --- [Chef] [pool-2-thread-10] c.brahmesh.Chef.Service.OrderProcessing  : Delivering order 40
+2026-02-13T20:02:09.183+05:30  INFO 25823 --- [Chef] [pool-2-thread-6] c.brahmesh.Chef.Service.OrderProcessing  : Order 40 Delivered
+2026-02-13T20:02:09.873+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    : Received Order: 40
+2026-02-13T20:02:09.874+05:30  INFO 25823 --- [Chef] [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.brahmesh.Chef.Repositories.Incoming    :  Going to Chef for processing
+2026-02-13T20:02:09.883+05:30  INFO 25823 --- [Chef] [pool-2-thread-8] c.brahmesh.Chef.Service.OrderProcessing  : Preparing order 40
+2026-02-13T20:02:09.934+05:30  INFO 25823 --- [Chef] [pool-2-thread-9] c.brahmesh.Chef.Service.OrderProcessing  : Order 40 Delivered
+2026-02-13T20:02:10.641+05:30  INFO 25823 --- [Chef] [pool-2-thread-7] c.brahmesh.Chef.Service.OrderProcessing  : Order 40 Delivered
+2026-02-13T20:02:10.986+05:30  INFO 25823 --- [Chef] [pool-2-thread-8] c.brahmesh.Chef.Service.OrderProcessing  : Order 40 ready for delivery.
+2026-02-13T20:02:10.987+05:30  INFO 25823 --- [Chef] [pool-2-thread-8] c.brahmesh.Chef.Service.OrderProcessing  : Delivering order 40
+2026-02-13T20:02:11.375+05:30  INFO 25823 --- [Chef] [pool-2-thread-10] c.brahmesh.Chef.Service.OrderProcessing  : Order 40 Delivered
+2026-02-13T20:02:13.198+05:30  INFO 25823 --- [Chef] [pool-2-thread-8] c.brahmesh.Chef.Service.OrderProcessing  : Order 40 Delivered
